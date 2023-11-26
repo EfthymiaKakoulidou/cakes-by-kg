@@ -26,10 +26,10 @@ body {
 /*Header*/
 header {
     background-color: lightpink;
-    padding:0 1rem;
-    position:fixed;
+    padding: 0 1rem;
+    position: fixed;
     width: 100%;
-    height:80px;
+    height: 80px;
 }
 
 h2 {
@@ -39,9 +39,11 @@ h2 {
     justify-content: start;
     width: 100%;
 }
-nav {display: flex;
-justify-content: end;
-width: 100%;
+
+nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
 }
 
 nav>a {
@@ -60,4 +62,11 @@ main {
 /*Footer*/
 footer {
     background-color: bisque;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+
 }
+.social-media {display:flex;
+    padding-right: 10px;}
