@@ -1,7 +1,7 @@
 /*Google Fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Mako&family=Oswald:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mako&family=Oooh+Baby&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mako&family=Oooh+Baby&family=Oswald:wght@200&family=Shadows+Into+Light&display=swap');
 
 
 /*Asterisk wildcard to override the default styles by the browser*/
@@ -20,6 +20,22 @@ body {
     color: saddlebrown;
     font-family: "Mako";
 }
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 
 
 
@@ -33,7 +49,7 @@ header {
 }
 
 #logo {
-    font-family: "Oooh baby";
+    font-family: "Mako";
     font-size: 40px;
     display: flex;
     justify-content: start;
@@ -61,7 +77,7 @@ main {
     background-image: url("../images/sc2.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-color: lightgrey;
     flex-grow: 1;
     display: flex;
@@ -73,24 +89,26 @@ main {
 
 /*Welcome Text*/
 #welcome {
+    color: saddlebrown;
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-shrink: 0;
-    
-    padding:10px;
+    padding: 10px;
 }
-#background{
-    display:flex;
+
+#background {
+    display: flex;
     justify-content: center;
     align-items: center;
-    width:400px;
-    height:150px;
+    width: 400px;
+    height: 150px;
     background-color: rgba(255, 228, 196, .7);
-    
 
-    
+
+
 }
+
 #dropdown-menu {
     display: none;
 }
@@ -109,4 +127,6 @@ footer {
 .social-media {
     display: flex;
     padding-right: 10px;
+    padding-top: 5px;
+    
 }
