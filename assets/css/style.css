@@ -25,9 +25,10 @@ font-family: "Mako";
 /*Header*/
 header {
     background-color: lightpink;
-    font-family: "Oooh baby";
+    
 }
-
+h2 {font-family: "Oooh baby";
+    font-size: 40px;}
 /*Main*/
 main {
     background-color: lightgrey;
