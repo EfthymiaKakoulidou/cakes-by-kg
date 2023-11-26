@@ -44,6 +44,7 @@ nav {
     display: flex;
     justify-content: end;
     width: 100%;
+    padding-right: 10px;
 }
 
 nav>a {
@@ -53,26 +54,59 @@ nav>a {
 
 }
 
+/*Dropdown Menu*/
+
 /*Main*/
 main {
+    background-image: url("../images/sc2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
     background-color: lightgrey;
     flex-grow: 1;
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
+
 }
-#welcome {display: flex;
+
+
+/*Welcome Text*/
+#welcome {
+    display: flex;
+    align-items: center;
     flex-direction: column;
-align-items: center;}
+    flex-shrink: 0;
+    
+    padding:10px;
+}
+#background{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height:150px;
+    background-color: rgba(255, 228, 196, .7);
+    
+
+    
+}
+#dropdown-menu {
+    display: none;
+}
 
 /*Footer*/
 footer {
     background-color: bisque;
-    height: 40px;
+    height: 20px;
     display: flex;
     justify-content: end;
     padding-right: 10px;
 
 }
-.social-media {display:flex;
-    padding-right: 10px;}
+
+/*Social Media Links*/
+.social-media {
+    display: flex;
+    padding-right: 10px;
+}
