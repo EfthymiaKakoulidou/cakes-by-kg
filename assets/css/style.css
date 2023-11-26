@@ -23,6 +23,7 @@ header {
 /*Main*/
 main {
     background-color: lightgrey;
+    flex-grow: 1;
 }
 
 /*Footer*/
