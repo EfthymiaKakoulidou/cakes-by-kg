@@ -58,6 +58,10 @@ To leave reviews about the orders they have already made
 
 The colour I chose were inspired by the colours typically used for sweets that is pink(for sugar), brown(for chocolate) and white(for cream).
 
+#### Fonts
+
+I chose 2 fonts for the projest. Since the owner does not have a logo yet, I chose a more graphic one for the logo (Oooh baby) and a cleaner and more readable one for the rest of the content.
+
 ### Features
 The website is comprised of 7 pages, the home page, the about page, the gallery page which consists of 4 pages one for every type of cakes and treats and a contact page. 
 
@@ -76,6 +80,8 @@ HTML, CSS
 
 #### Frameworks, Libraries & Programs Used
 Balsamiq - Used to create wireframes.
+Favicon.io - Used to download a favicon.
+Google Fonts - Used to import fonts.
 
 ### Deployment & Local Development
 ### Testing
