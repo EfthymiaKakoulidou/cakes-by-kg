@@ -60,19 +60,11 @@ header {
     background-color: aquamarine;
 
 }
-li {list-style-type: none;}
 
-li>a {
-    padding-right: 10px;
-    color: saddlebrown;
-}
 
 
 /*Dropdown Menu*/
 
-.menu {display:none;}
-
-.gallery:hover .menu {display: block;}
 
 /*Main*/
 main {
