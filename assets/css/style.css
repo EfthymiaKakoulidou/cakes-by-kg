@@ -21,7 +21,7 @@ body {
     font-family: "Mako";
 }
 
-a:link {
+a:link {color: saddlebrown;
     text-decoration: none;
 }
 
@@ -57,14 +57,26 @@ header {
     display: flex;
     justify-content: end;
     padding-right: 10px;
-    background-color: aquamarine;
+    background-color:lightpink;
 
 }
 
 
 
 /*Dropdown Menu*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: lightpink;
+  }
 
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
 
 /*Main*/
 main {
@@ -90,6 +102,8 @@ main {
     flex-shrink: 0;
     padding: 10px;
 }
+
+/*Background Rectangular behind the text*/
 
 #background {
     display: flex;
