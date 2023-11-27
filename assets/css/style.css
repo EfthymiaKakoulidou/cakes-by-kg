@@ -20,6 +20,7 @@ body {
     color: saddlebrown;
     font-family: "Mako";
 }
+
 a:link {
     text-decoration: none;
 }
@@ -32,9 +33,6 @@ a:hover {
     text-decoration: none;
 }
 
-a:active {
-    text-decoration: none;
-}
 
 
 
@@ -50,27 +48,31 @@ header {
 
 #logo {
     font-family: "Mako";
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     justify-content: start;
-    width: 100%;
 }
 
-nav {
+#navigation {
     display: flex;
     justify-content: end;
-    width: 100%;
     padding-right: 10px;
-}
+    background-color: aquamarine;
 
-nav>a {
+}
+li {list-style-type: none;}
+
+li>a {
+    padding-right: 10px;
     color: saddlebrown;
-    display: flex;
-    padding-right: 10px;
-
 }
+
 
 /*Dropdown Menu*/
+
+.menu {display:none;}
+
+.gallery:hover .menu {display: block;}
 
 /*Main*/
 main {
@@ -128,5 +130,5 @@ footer {
     display: flex;
     padding-right: 10px;
     padding-top: 5px;
-    
+
 }
