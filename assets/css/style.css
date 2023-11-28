@@ -71,17 +71,24 @@ header {display: flex;
 /*Navnar styles with dropdown toggle*/
 
 #navigation {
-   visibility: hidden;
+   display:none;
     position:absolute;
     background-color: lightpink;
-    padding-right: 10px;
+
 }
 
-nav a {
+#navigation-bar {padding-right: 50px;
+    width: 3vw;}
+
+nav a {font-size: larger;
     padding-right: 10px;
 }
 #nav-toggle:checked~nav {display:block;}
 #nav-toggle {display: none;}
+
+#burger-icon {
+    font-size: 4vh;}
+
 
 /*Dropdown Menu*/
 .dropdown {
