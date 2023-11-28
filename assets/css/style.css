@@ -21,7 +21,8 @@ body {
     font-family: "Mako";
 }
 
-a:link {color: saddlebrown;
+a:link {
+    color: saddlebrown;
     text-decoration: none;
 }
 
@@ -58,10 +59,13 @@ header {
     display: flex;
     justify-content: end;
     padding-right: 10px;
-    background-color:lightpink;
+    background-color: lightpink;
 
 }
-nav a {padding-right: 10px;}
+
+nav a {
+    padding-right: 10px;
+}
 
 
 
@@ -69,18 +73,24 @@ nav a {padding-right: 10px;}
 .dropdown {
     position: relative;
     display: inline-block;
-  }
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     z-index: 1;
     background-color: lightpink;
-   padding: 5px;
-   font-size: 10px;
-  }
+    padding: 5px;
+    font-size: 10px;
+}
 
-  .dropdown-content a:hover {background-color: #ddd;}
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /*Main*/
 main {
@@ -93,8 +103,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-padding-right: 30vw;
-padding-bottom: 30vh;
+    padding-right: 20vw;
+    padding-bottom: 20vh;
 }
 
 
@@ -107,6 +117,24 @@ padding-bottom: 30vh;
     flex-shrink: 0;
     padding: 10px;
 }
+
+/*Welcome Button*/
+
+#welcome-button {
+    background-color: lightpink;
+    border: none;
+    color: saddlebrown;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#wbutton {border-radius: 50%;
+    background-color: lightpink;
+    width: 200px;
+    height:200px
+}
+
 
 /*Background behind the text*/
 
@@ -141,7 +169,7 @@ footer {
     display: flex;
     padding-right: 10px;
     padding-top: 5px;
-    flex-grow:1;
+    flex-grow: 1;
     justify-content: center;
 
 }
