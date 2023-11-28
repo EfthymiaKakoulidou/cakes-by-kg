@@ -124,8 +124,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 20vw;
-    padding-bottom: 20vh;
+    
 }
 
 
@@ -137,6 +136,8 @@ main {
     flex-direction: column;
     flex-shrink: 0;
     padding: 10px;
+    font-weight: bolder;
+    font-size: 35px;
 }
 
 /*Welcome Button*/
@@ -150,29 +151,41 @@ main {
     
 }
 
-#wbutton {border-radius: 50%;
+#wbutton {position: absolute;
+    border-radius: 50%;
     background-color: lightpink;
     width: 200px;
-    height:200px
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
 }
 
 
 /*Background behind the text*/
 
 #background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    z-index: 0;
     width: 250px;
     height: 250px;
     background-color: rgba(255, 228, 196, .7);
     border-radius: 50%;
+    right: 50vw;
+    top:20vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
 }
+h1 {font-family: "Oooh Baby";
+    padding-top: 13vh;
+    display: flex;
+justify-content: center;
+align-content: center;}
 
-#dropdown-menu {
-    display: none;
-}
 
 /*Footer*/
 footer {
