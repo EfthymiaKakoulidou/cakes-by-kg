@@ -38,7 +38,6 @@ a:hover {
 
 
 
-
 /*Header*/
 header {display: flex;
     flex-direction: row;
@@ -69,17 +68,20 @@ header {display: flex;
     justify-content: start;
 }
 
+/*Navnar styles with dropdown toggle*/
+
 #navigation {
+   visibility: hidden;
+    position:absolute;
+    background-color: lightpink;
     padding-right: 10px;
 }
-
-nav {}
 
 nav a {
     padding-right: 10px;
 }
-
-
+#nav-toggle:checked~nav {display:block;}
+#nav-toggle {display: none;}
 
 /*Dropdown Menu*/
 .dropdown {
