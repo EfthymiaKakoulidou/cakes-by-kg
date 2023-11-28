@@ -27,6 +27,7 @@ a:link {color: saddlebrown;
 
 a:visited {
     text-decoration: none;
+    color: saddlebrown;
 }
 
 a:hover {
@@ -60,6 +61,7 @@ header {
     background-color:lightpink;
 
 }
+nav a {padding-right: 10px;}
 
 
 
@@ -73,6 +75,8 @@ header {
     position: absolute;
     z-index: 1;
     background-color: lightpink;
+   padding: 5px;
+   font-size: 10px;
   }
 
   .dropdown-content a:hover {background-color: #ddd;}
@@ -89,7 +93,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-
+padding-right: 30vw;
+padding-bottom: 30vh;
 }
 
 
@@ -103,17 +108,16 @@ main {
     padding: 10px;
 }
 
-/*Background Rectangular behind the text*/
+/*Background behind the text*/
 
 #background {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     background-color: rgba(255, 228, 196, .7);
-
-
+    border-radius: 50%;
 
 }
 
@@ -124,7 +128,7 @@ main {
 /*Footer*/
 footer {
     background-color: bisque;
-    height: 20px;
+    height: 50px;
     display: flex;
     justify-content: end;
     padding-right: 10px;
@@ -133,8 +137,11 @@ footer {
 
 /*Social Media Links*/
 .social-media {
+    font-size: 40px;
     display: flex;
     padding-right: 10px;
     padding-top: 5px;
+    flex-grow:1;
+    justify-content: center;
 
 }
