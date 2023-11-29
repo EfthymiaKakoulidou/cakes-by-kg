@@ -45,7 +45,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: lightpink;
-    padding: 0 1rem;
+    padding: 0 .7rem;
     position: fixed;
     width: 100%;
     height: 80px;
@@ -77,15 +77,12 @@ header {
 
 #navigation {
     display: none;
-    position: absolute;
     background-color: lightpink;
+    width:20vw;
+    margin-top: 20px;
 
 }
 
-#navigation-bar {
-    padding-right: 50px;
-    width: 3vw;
-}
 
 nav a {
     font-size: larger;
@@ -121,7 +118,7 @@ nav a {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color:lightslategrey;
 }
 
 .dropdown:hover .dropdown-content {
@@ -281,4 +278,18 @@ footer {
     flex-grow: 1;
     justify-content: center;
 
+}
+
+/*Media queries tablets and larger (768px and larger)*/
+@media screen and (min-width:768px){
+
+    /*Header*/
+    
+    #navigation {
+        display:block;
+        width: 33vw;
+}
+
+#nav-toggle {display: none;}
+#burger-icon {display: none;}
 }
