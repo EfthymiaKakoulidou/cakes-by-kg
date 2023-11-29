@@ -214,6 +214,15 @@ h1 {
 }
 /*Gallery Pictures*/
 
+.all-pics {width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .gallery-pics {
     width: 150px;
     height: 200px;
