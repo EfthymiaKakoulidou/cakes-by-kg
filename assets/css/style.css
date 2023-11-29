@@ -219,7 +219,7 @@ h1 {
     height: 200px;
     overflow: hidden;
 }
-.display-none {visibility: hidden;}
+.display-none {display:none;}
 
 .cake-pic {
     width: 100%;
