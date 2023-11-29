@@ -234,17 +234,19 @@ h1 {
     overflow: hidden;
     margin: 30px;
     margin-bottom: 10px;
+    margin-top: 10px;
+    
 }
 
 .gallery-pics-caption {
     width: 150px;
-    height: 100px;
+    height: 70px;
     font-size: 12px;
     text-align: justify;
 }
 
 /*Container for pic and caption*/
-.img1 {display: flex;
+.img {display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;}
