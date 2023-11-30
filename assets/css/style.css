@@ -173,7 +173,7 @@ main {
 
 /*Welcome Button*/
 
-#welcome-button {
+#welcome-button {position: absolute;
     background-color: lightpink;
     border: none;
     color: saddlebrown;
@@ -182,19 +182,24 @@ main {
 
 }
 
-#wbutton {
-    position: absolute;
-    border-radius: 50%;
+.wbutton {position: absolute;
+    border-radius: 25%;
     background-color: lightpink;
     width: 200px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-
+    z-index: 3;
 }
-
+.wbutton1 {position: absolute;
+    border-radius: 25%;
+    background-color: lightpink;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    transform: rotate(45deg);
+}
 
 /*Beige Circle*/
 
@@ -207,9 +212,6 @@ main {
     border-radius: 50%;
     right: 50vw;
     top: 20vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 
 }
 
