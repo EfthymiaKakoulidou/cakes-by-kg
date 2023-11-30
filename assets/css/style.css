@@ -43,7 +43,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     background-color: lightpink;
     padding: 0 .7rem;
     position: fixed;
@@ -58,8 +58,8 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color:bisque;
-    color:saddlebrown;
+    background-color: bisque;
+    color: saddlebrown;
     border: none;
 }
 
@@ -80,9 +80,9 @@ header {
 #navigation {
     display: none;
     background-color: lightpink;
-    width:20vw;
+    width: 20vw;
     margin-top: 20px;
-    
+
 }
 
 nav a {
@@ -90,7 +90,8 @@ nav a {
     padding-right: 10px;
 }
 
-#nav-toggle:checked~nav {position:absolute;
+#nav-toggle:checked~nav {
+    position: absolute;
     display: block;
 }
 
@@ -119,7 +120,7 @@ nav a {
 }
 
 .dropdown-content a:hover {
-    background-color:lightslategrey;
+    background-color: lightslategrey;
 }
 
 .dropdown:hover .dropdown-content {
@@ -215,7 +216,7 @@ h1 {
 
 /*Gallery Pictures*/
 
-
+#bday-cakes 
 
 .all-pics {
     width: 100vw;
@@ -226,7 +227,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 100px;
-    
+
 }
 
 /*Container for every pic*/
@@ -237,7 +238,7 @@ h1 {
     margin: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
-    
+
 }
 
 .gallery-pics-caption {
@@ -248,10 +249,12 @@ h1 {
 }
 
 /*Container for pic and caption*/
-.img {display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .display-none {
     display: none;
@@ -263,30 +266,44 @@ flex-direction: column;}
     height: 100%;
     object-fit: cover;
 }
+
 /*Contact*/
-#contact-main {padding-top: 100px;
-    width:80vw;
+#contact-main {
+    padding-top: 100px;
+    width: 80vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
-align-items: center;}
+    align-items: center;
+}
 
 #details {
-    padding: 20px;}
-#form {padding: 20px;
+    padding: 20px;
+}
+
+#form {
+    padding: 20px;
     display: flex;
     justify-content: center;
-    width:100%;
-    padding:20px;
-    background-color: lightpink;}
-#form input {width:100%;
-    display: flex; 
-flex-direction: column;
-justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: lightpink;
 }
+
+#form input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #message {
-    height:100px}
-    #map {padding-top: 20px;}
+    height: 100px
+}
+
+#map {
+    padding-top: 20px;
+}
 
 
 /*Footer*/
@@ -311,36 +328,76 @@ footer {
 }
 
 /*Media queries tablets and larger (768px and larger)*/
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
 
     /*Header*/
-    header {justify-content: space-between;}
+    header {
+        justify-content: space-between;
+    }
+
     #navigation {
-        display:block;
-        
-        
-}
-#navigation-bar {position:relative}
-#nav-toggle {display: none;}
-#burger-icon {display: none;}
-#lbutton {display: block;}
-#contact-main {padding-top: 100px;
-   
-    display: flex;
-flex-direction: row;
+        display: block;
+
+
+    }
+
+    #navigation-bar {
+        position: relative
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    #burger-icon {
+        display: none;
+    }
+
+    #lbutton {
+        display: block;
+    }
+
+    #contact-main {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+
+    }
+
+    #form {display: flex;
+        flex-grow: 1;
+        background-color: lightgrey;
+        padding: 10px;
+        width: 100%;
+        align-self: flex-end;
+    }
+
+    #map {flex-grow: 1;
+        align-self: flex-end;
+        width: 100%;
+    }
+
+    #kg-pic {display: flex;
+        flex-grow: 1;
+        align-self: flex-end;
+        padding: 10px;
+    }
+
+    #details {display: flex;
+        align-self: self-end;
+        flex-grow: 1;
+       flex-direction: column;
+        padding: 0px;
+    }
+    #phone {display: flex;
+        flex-grow: 1;
+    flex-direction: column;}
+#email {display: flex;
+    flex-grow: 1;
+flex-direction: column;}
+#address {display: flex;
+    flex-grow: 1;
+    flex-direction: column;}
 
 }
-#form {background-color:lightgrey;
-    padding: 10px;
-    width: 100%; 
-align-self: flex-end;}
-#map{align-self: flex-end;
-    width: 100%;}
-#kg-pic {
-    align-self: flex-end;
-    padding: 10px;}
-
-    #details {padding: 0px;}
-
-}
-
