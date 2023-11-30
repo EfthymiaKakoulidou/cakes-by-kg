@@ -135,6 +135,7 @@ main {
     justify-content: center;
     align-items: center;
     overflow: auto;
+    flex-direction: column;
 }
 
 /*Background pic*/
@@ -214,9 +215,7 @@ h1 {
 
 /*Gallery Pictures*/
 
-#bday-cakes {height: 90%;
-    position:absolute;
-width: 100%;}
+
 
 .all-pics {
     width: 100vw;
@@ -264,6 +263,9 @@ flex-direction: column;}
     height: 100%;
     object-fit: cover;
 }
+/*Contact*/
+#details div {
+}
 
 /*Footer*/
 footer {
@@ -293,7 +295,7 @@ footer {
     header {justify-content: space-between;}
     #navigation {
         display:block;
-        justify-content:space-around;
+        
         
 }
 #navigation-bar {position:relative}
