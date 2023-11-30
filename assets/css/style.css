@@ -67,13 +67,16 @@ header {
     z-index: 50;
 }
 
-#lbutton1 {position: absolute;
+#lbutton1 {
+    position: absolute;
     background-color: bisque;
     width: 50px;
     height: 50px;
     border-radius: 25%;
-transform: rotate(45deg);
-z-index: 1;}
+    transform: rotate(45deg);
+    z-index: 1;
+    display: none;
+}
 
 #logo {
     font-family: "Oooh Baby";
@@ -112,9 +115,6 @@ nav a {
     display: block;
 }
 
-#nav-toggle {
-   
-}
 
 #burger-icon {
     font-size: 4vh;
@@ -182,7 +182,8 @@ main {
 
 /*Welcome Button*/
 
-#welcome-button {position: absolute;
+#welcome-button {
+    position: absolute;
     background-color: lightpink;
     border: none;
     color: saddlebrown;
@@ -191,9 +192,10 @@ main {
 
 }
 
-.wbutton {position: absolute;
+.wbutton {
+    position: absolute;
     border-radius: 25%;
-    background-color: lightpink;
+    background-color: rgba(255,182,193);
     width: 200px;
     height: 200px;
     display: flex;
@@ -201,9 +203,11 @@ main {
     align-items: center;
     z-index: 3;
 }
-.wbutton1 {position: absolute;
+
+.wbutton1 {
+    position: absolute;
     border-radius: 25%;
-    background-color: lightpink;
+    background-color: rgba(255,182,193);
     width: 200px;
     height: 200px;
     z-index: 2;
@@ -214,14 +218,26 @@ main {
 
 #background {
     position: absolute;
-    z-index: 0;
+    z-index: 1;
     width: 150px;
     height: 150px;
-    background-color: rgba(255, 228, 196, .7);
-    border-radius: 50%;
+    background-color: rgba(255, 228, 196);
+    border-radius: 25%;
     right: 50vw;
     top: 20vh;
 
+}
+
+#background1 {
+    position: absolute;
+    z-index: 0;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 228, 196);
+    border-radius: 25%;
+    right: 50vw;
+    top: 20vh;
+    transform: rotate(45deg);
 }
 
 h1 {
@@ -379,6 +395,8 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    #lbutton {display: block;}
+    #lbutton1 {display: block;}
 
     #navigation {
         display: block;
@@ -396,6 +414,10 @@ footer {
         display: block;
     }
 
+    #lbutton1 {
+        display: block;
+    }
+
     #contact-main {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -409,7 +431,7 @@ footer {
         padding: 10px;
         width: 100%;
         align-self: flex-end;
-        
+
     }
 
     #map {
@@ -417,19 +439,20 @@ footer {
         width: 100%;
     }
 
-    #kg-pic {align-self:flex-end;
+    #kg-pic {
+        align-self: flex-end;
         padding: 10px;
         width: 100%;
-        
+
     }
 
     #details {
-        align-self:flex-end;
+        align-self: flex-end;
         padding: 0px;
     }
 
     #phone {
-       width: 100%;
+        width: 100%;
     }
 
     #email {
