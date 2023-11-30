@@ -45,7 +45,8 @@ header {
     position: fixed;
     width: 100%;
     height: 80px;
-    
+    padding-top: 20px;
+
 }
 
 #logo-button {
@@ -61,7 +62,7 @@ header {
 }
 
 #lbutton {
-    padding-top: 2px;
+    align-items: center;
     display: none;
 }
 
@@ -69,18 +70,21 @@ header {
     font-family: "Oooh Baby";
     font-size: 3vh;
     position: absolute;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-text-align: center;
-    
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
 }
 
 /*Navnar styles with dropdown toggle*/
 
-#navigation-bar {display: flex;
+#navigation-bar {
+    display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    z-index: 50;
 }
 
 #navigation {
@@ -100,7 +104,7 @@ nav a {
 }
 
 #nav-toggle {
-    display: none;
+   
 }
 
 #burger-icon {
@@ -219,9 +223,17 @@ h1 {
 
 /*Gallery Pictures*/
 
-#bday-cakes {padding-top: 50px;}
-#speciallty-cakes {padding-top: 50px;}
-#sweet-treats {padding-top: 50px;}
+#bday-cakes {
+    padding-top: 50px;
+}
+
+#speciallty-cakes {
+    padding-top: 50px;
+}
+
+#sweet-treats {
+    padding-top: 50px;
+}
 
 .all-pics {
     width: 100%;
@@ -312,10 +324,12 @@ h1 {
 
 /*About Page*/
 
-#cv-text {width: 80vw;
+#cv-text {
+    width: 80vw;
     display: flex;
-flex-direction: column;
-align-items: center;}
+    flex-direction: column;
+    align-items: center;
+}
 
 /*Footer*/
 footer {
@@ -342,21 +356,21 @@ footer {
 @media screen and (min-width:768px) {
 
     /*Header*/
-    header {display: flex;
+    header {
+        display: flex;
         justify-content: space-between;
     }
-    #logo { position:absolute;
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto; }
-    #navigation {
-        display: block;
 
+    #logo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    #navigation-bar {
-        
+    #navigation {
+        display: block;
     }
 
     #nav-toggle {
@@ -372,46 +386,47 @@ footer {
     }
 
     #contact-main {
-        padding-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         display: flex;
         flex-direction: row;
         flex-grow: 1;
-
     }
 
-    #form {display: flex;
-        flex-grow: 1;
+    #form {
         background-color: lightgrey;
         padding: 10px;
         width: 100%;
         align-self: flex-end;
+        
     }
 
-    #map {flex-grow: 1;
+    #map {
         align-self: flex-end;
         width: 100%;
     }
 
-    #kg-pic {display: flex;
-        flex-grow: 1;
-        align-self: flex-end;
+    #kg-pic {align-self:flex-end;
         padding: 10px;
+        width: 100%;
+        
     }
 
-    #details {display: flex;
-        align-self: self-end;
-        flex-grow: 1;
-       flex-direction: column;
+    #details {
+        align-self:flex-end;
         padding: 0px;
     }
-    #phone {display: flex;
-        flex-grow: 1;
-    flex-direction: column;}
-#email {display: flex;
-    flex-grow: 1;
-flex-direction: column;}
-#address {display: flex;
-    flex-grow: 1;
-    flex-direction: column;}
+
+    #phone {
+       width: 100%;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    #address {
+        width: 100%;
+    }
 
 }
