@@ -40,15 +40,12 @@ a:hover {
 
 /*Header*/
 header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
     background-color: lightpink;
     padding: 0 .7rem;
     position: fixed;
     width: 100%;
     height: 80px;
+    
 }
 
 #logo-button {
@@ -71,17 +68,24 @@ header {
 #logo {
     font-family: "Oooh Baby";
     font-size: 3vh;
-    display: flex;
-    justify-content: start;
+    position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+    
 }
 
 /*Navnar styles with dropdown toggle*/
 
+#navigation-bar {display: flex;
+    flex-direction: row-reverse;
+}
+
 #navigation {
     display: none;
     background-color: lightpink;
-    width: 20vw;
-    margin-top: 20px;
 
 }
 
@@ -102,7 +106,6 @@ nav a {
 #burger-icon {
     font-size: 4vh;
 }
-
 
 /*Dropdown Menu*/
 .dropdown {
@@ -216,17 +219,19 @@ h1 {
 
 /*Gallery Pictures*/
 
-#bday-cakes 
+#bday-cakes {padding-top: 50px;}
+#speciallty-cakes {padding-top: 50px;}
+#sweet-treats {padding-top: 50px;}
 
 .all-pics {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 50px;
 
 }
 
@@ -305,6 +310,12 @@ h1 {
     padding-top: 20px;
 }
 
+/*About Page*/
+
+#cv-text {width: 80vw;
+    display: flex;
+flex-direction: column;
+align-items: center;}
 
 /*Footer*/
 footer {
@@ -331,18 +342,21 @@ footer {
 @media screen and (min-width:768px) {
 
     /*Header*/
-    header {
+    header {display: flex;
         justify-content: space-between;
     }
-
+    #logo { position:absolute;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; }
     #navigation {
         display: block;
-
 
     }
 
     #navigation-bar {
-        position: relative
+        
     }
 
     #nav-toggle {
