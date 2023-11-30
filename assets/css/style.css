@@ -55,7 +55,7 @@ header {
     font-weight: bold;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: bisque;
     color: saddlebrown;
     border: none;
@@ -64,7 +64,16 @@ header {
 #lbutton {
     align-items: center;
     display: none;
+    z-index: 50;
 }
+
+#lbutton1 {position: absolute;
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+transform: rotate(45deg);
+z-index: 1;}
 
 #logo {
     font-family: "Oooh Baby";
