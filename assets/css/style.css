@@ -43,7 +43,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
     background-color: lightpink;
     padding: 0 .7rem;
     position: fixed;
@@ -58,12 +58,14 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: saddlebrown;
-    color: lightpink;
+    background-color:bisque;
+    color:saddlebrown;
+    border: none;
 }
 
 #lbutton {
     padding-top: 2px;
+    display: none;
 }
 
 #logo {
@@ -80,16 +82,15 @@ header {
     background-color: lightpink;
     width:20vw;
     margin-top: 20px;
-
+    
 }
-
 
 nav a {
     font-size: larger;
     padding-right: 10px;
 }
 
-#nav-toggle:checked~nav {
+#nav-toggle:checked~nav {position:absolute;
     display: block;
 }
 
@@ -133,6 +134,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 
 /*Background pic*/
@@ -212,6 +214,10 @@ h1 {
 
 /*Gallery Pictures*/
 
+#bday-cakes {height: 90%;
+    position:absolute;
+width: 100%;}
+
 .all-pics {
     width: 100vw;
     height: 100vh;
@@ -284,12 +290,16 @@ footer {
 @media screen and (min-width:768px){
 
     /*Header*/
-    
+    header {justify-content: space-between;}
     #navigation {
         display:block;
-        width: 33vw;
+        justify-content:space-around;
+        
 }
-
+#navigation-bar {position:relative}
 #nav-toggle {display: none;}
 #burger-icon {display: none;}
+#lbutton {display: block;}
+
+
 }
