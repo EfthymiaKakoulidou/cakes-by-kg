@@ -403,9 +403,7 @@ h1 {
     justify-content: center;
 }
 
-#message {
-    height: 100px
-}
+#message {width: 100%;}
 
 #map {
     padding-top: 20px;
