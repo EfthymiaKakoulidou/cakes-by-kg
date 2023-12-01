@@ -182,7 +182,7 @@ main {
     object-fit: cover;
 }
 
-#welcome {
+.welcome {
     color: saddlebrown;
     display: flex;
     align-items: center;
