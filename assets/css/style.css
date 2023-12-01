@@ -52,18 +52,24 @@ header {
 
 #lbutton {
     display: none;
-    z-index: 2;
-    font-family: "Oooh Baby";
-    font-size: larger;
-    font-weight: bold;
     width: 50px;
     height: 50px;
     border-radius: 25%;
     background-color: bisque;
-    color: saddlebrown;
-    text-align:center;
-    text-align-last: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
 }
+#initials {display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    font-family: "Oooh Baby";
+    font-size: larger;
+    font-weight: bold;
+    color: saddlebrown;}
 
 #lbutton1 {
     position: absolute;
@@ -88,8 +94,6 @@ header {
     right: 0;
     text-align: center;
     margin-top: 0;
-
-
 }
 
 /*Navnar styles with dropdown toggle*/
