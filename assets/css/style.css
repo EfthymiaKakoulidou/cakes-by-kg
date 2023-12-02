@@ -77,14 +77,12 @@ header {
     border-radius: 25%;
     transform: rotate(45deg);
     z-index: 1;
-    
-
 
 }
 
 #logo {
     font-family: "Oooh Baby";
-    font-size: 4vh;
+    font-size: 3vh;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -168,6 +166,14 @@ align-items: center;
 .dropdown:hover .dropdown-content {
     display: block;
 }
+h1 {
+    font-family: "Oooh Baby";
+    padding-top: 7vh;
+}
+
+h2 {text-align: center;
+    font-family: "Oooh Baby";}
+
 
 /*Main*/
 main {
@@ -186,8 +192,8 @@ flex-direction: column;
     width: 100%;
     overflow: hidden;
 
-
 }
+
 
 .cake-pic {
     height: 100%;
@@ -224,7 +230,6 @@ padding-bottom: 2vw;
     width: 200px;
     height: 200px;
     z-index: 10;}
-   
 
 #bcakes1 {position: absolute;
     border-radius: 25%;
@@ -275,17 +280,12 @@ padding-bottom: 2vw;
         border-radius: 25%;
         transform: rotate(45deg);}
 
-h1 {
-    font-family: "Oooh Baby";
-    padding-top: 7vh;
-}
-h2 {text-align: center;
-    font-family: "Oooh Baby";}
+
 
 /*Gallery Pictures*/
 
 
-#bday-cakes {
+#gallery-titles {
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
@@ -482,7 +482,7 @@ footer {
     }
 
      /*Main birthday cakes*/
-    #bday-cakes {position: absolute;
+    #gallery-titles {position: absolute;
         margin-left: auto;
         margin-right: auto;
         padding-top: 100px;
