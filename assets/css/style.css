@@ -17,18 +17,18 @@ body {
     display: flex;
     flex-direction: column;
     /*Generic Project Styles*/
-    color: saddlebrown;
+    color: rgb(68, 33, 22);
     font-family: "Mako";
 }
 
 a:link {
-    color: saddlebrown;
+    color: rgb(68, 33, 22);
     text-decoration: none;
 }
 
 a:visited {
     text-decoration: none;
-    color: saddlebrown;
+   color: rgb(68, 33, 22);
 }
 
 a:hover {
@@ -67,7 +67,7 @@ header {
     font-family: "Oooh Baby";
     font-size: larger;
     font-weight: bold;
-    color: saddlebrown;}
+    color: rgb(116, 57, 16);}
 
 #lbutton1 {display: none;
     position: absolute;
@@ -174,7 +174,7 @@ main {
     background-color: lightcyan;
     flex-grow: 1;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
 flex-direction: column;
 }
@@ -196,7 +196,7 @@ flex-direction: column;
 }
 
 .cakes {
-    color: saddlebrown;
+    color: rgb(68, 33, 22);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +212,9 @@ flex-direction: column;
 text-align: center;
 }
 
-#bcakes {position: absolute;
+#bcakes {display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 25%;
     background-color: rgba(255, 182, 193, .8);
     width: 200px;
@@ -232,7 +234,9 @@ text-align: center;
 
 /*Speciallty cakes*/
 
-#scakes {position: absolute;
+#scakes {display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
     width: 150px;
     height: 150px;
@@ -251,7 +255,9 @@ text-align: center;
 }
 
 /*Sweet Treats*/
-#sweet {position: absolute;
+#sweet {display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
     width: 150px;
     height: 150px;
@@ -330,7 +336,7 @@ h1 {
     right: 35px;
     top: 20px;
     position: absolute;
-    color: saddlebrown;
+    color: rgb(68, 33, 22);
     z-index: 5;
 }
 
