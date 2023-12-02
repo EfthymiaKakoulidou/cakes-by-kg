@@ -56,13 +56,11 @@ header {
     height: 50px;
     border-radius: 25%;
     background-color: bisque;
-    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 0;
 }
 #initials {display: none;
-    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 50;
@@ -71,7 +69,7 @@ header {
     font-weight: bold;
     color: saddlebrown;}
 
-#lbutton1 {
+#lbutton1 {display: none;
     position: absolute;
     background-color: bisque;
     width: 50px;
@@ -79,7 +77,7 @@ header {
     border-radius: 25%;
     transform: rotate(45deg);
     z-index: 1;
-    display: none;
+    
 
 
 }
@@ -90,8 +88,8 @@ header {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    left: 0;
-    right: 0;
+    left: 10vw;
+    right: 10vw;
     text-align: center;
     margin-top: 0;
 }
@@ -459,7 +457,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-
+#initials {display: block;}
     #lbutton {
         display: block;
     }
