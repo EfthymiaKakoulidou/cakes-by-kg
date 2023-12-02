@@ -176,7 +176,7 @@ main {
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-
+flex-direction: column;
 }
 
 /*Background pic*/
@@ -454,8 +454,8 @@ footer {
     #burger-icon {
         display: none;
     }
-
-
+ /*Main Contact*/
+main {flex-direction: row;}
     #contact-main {
         padding-top: 50px;
         padding-bottom: 50px;
