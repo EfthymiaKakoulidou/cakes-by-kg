@@ -210,6 +210,10 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
 text-align: center;
+padding-left: 2vw;
+padding-right: 2vw;
+padding-top: 2vw;
+padding-bottom: 2vw;
 }
 
 #bcakes {display: flex;
@@ -274,15 +278,19 @@ text-align: center;
 h1 {
     font-family: "Oooh Baby";
     padding-top: 7vh;
-
 }
+h2 {text-align: center;
+    font-family: "Oooh Baby";}
 
 /*Gallery Pictures*/
 
 
 #bday-cakes {
-    padding-top: 50px;
-}
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;}
+    
 
 #speciallty-cakes {
     padding-top: 50px;
@@ -300,7 +308,7 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 30px;
 
 }
 
@@ -394,6 +402,18 @@ h1 {
 
 /*About Page*/
 
+
+#about-main{display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    #video {display: flex; 
+        justify-content: center;
+        align-content: center; }
+
+
 #cv-text {
     width: 80vw;
     display: flex;
@@ -460,7 +480,20 @@ footer {
     #burger-icon {
         display: none;
     }
+
+     /*Main birthday cakes*/
+    #bday-cakes {position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 100px;
+        padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    }
+    .all-pics {padding-top: 150px;}
+
  /*Main Contact*/
+
 main {flex-direction: row;}
     #contact-main {
         padding-top: 50px;
