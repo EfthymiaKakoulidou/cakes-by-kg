@@ -145,7 +145,7 @@ nav a {
     height: 33vh;
     display: block;
     border-radius: 5%;
-    font-size: 30px;
+    font-size: 25px;
     z-index: 0;
     display: flex;
     flex-direction: column;
@@ -215,14 +215,14 @@ main {
     height: 100%;
     width: 100%;
     overflow: hidden;
-
+   background-size: cover;
 }
 
 
 .cake-pic {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+
 }
 
 .cakes {
@@ -342,6 +342,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -394,35 +395,41 @@ main {
 
 /*Contact*/
 #contact-main {
-    padding-top: 100px;
-    width: 80vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 80vw;
+    height: 100vh;
+    
 
 }
 
-#kg-pic {
+#kg-pic {display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 15%;
     z-index: 2;
+    
 
 }
 
-#details {
+#details {display: flex;
     z-index: 2;
     padding: 20px;
+    background-color:lightcyan;
+    border-radius: 15%;
+    
 }
 
-#form {
+#form {display: flex;
     z-index: 2;
     padding: 20px;
     display: flex;
-    justify-content: center;
-    width: 100%;
     padding: 20px;
     background-color: lightpink;
     border-radius: 15%;
+    
 }
 
 #form input {
@@ -578,18 +585,14 @@ border-radius:25% ;}
     }
 
     #contact-main {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
 
     }
 
-    #form {
+    #form {display: grid;
         padding: 10px;
         width: 100%;
-        align-self: flex-end;
         border-radius: 5%;
 
 
@@ -600,18 +603,18 @@ border-radius:25% ;}
         width: 100%;
     }
 
-    #kg-pic {
-        align-self: flex-end;
+    #kg-pic {background-color: bisque;
         padding: 10px;
-        width: 50%;
         border-radius: 15%;
-
-
+        display: grid;
+        width: 100%;
     }
 
-    #details {
-        align-self: flex-end;
-        padding: 0px;
+    #details { display:grid;
+        padding:10px;
+        padding: 10px;
+        border-radius: 15%;
+        width: 100%;
     }
 
     #phone {
