@@ -181,19 +181,14 @@ main {
 
 /*Background pic*/
 
-.background-image {padding-top: 50px;
+
+
+.cake-pic {
     position: absolute;
     height: 100%;
     width: 100%;
     overflow: hidden;
     background-size: cover;
-}
-
-
-.cake-pic {
-    height: 100%;
-    width: 100%;
-
 }
 
 .cakes {
