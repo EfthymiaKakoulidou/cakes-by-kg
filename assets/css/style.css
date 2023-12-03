@@ -21,7 +21,7 @@ body {
     font-family: "Mako";
 }
 
-a:link {
+a:link {text-decoration: none;
     color: rgb(68, 33, 22);
 
 }
@@ -47,9 +47,7 @@ header {
     height: 80px;
     padding-top: 20px;
     z-index: 100;
-    text-decoration: none;
     display: flex;
-
 }
 
 
@@ -121,10 +119,14 @@ header {
 
 #navigation-menu {display:none;
     background-color: lightpink;
-    font-size: 30px;
-    width: 50vw;
-}
-.cake-types {font-size: 20px;}
+    font-size: 40px;
+    width: 50vw;}
+    #cake-kinds {display: none;
+    font-size: 30px;}
+#gallery-desktop:hover #cake-kinds {
+        display: block;}
+.cake-types {
+    font-size: 20px;}
 
 h1 {
     font-family: "Oooh Baby";
@@ -515,13 +517,17 @@ footer {
         display: flex;
         flex-direction: row;
     }
-    #cake-kinds {display: none;}
+    #cake-kinds {display: none;
+       
+        }
     #nav-desktop {display: flex;
         flex-direction: row;
         width: 100%;
     justify-content: space-around; }
 
-    #gallery-desktop:hover #cake-kinds {display: block;}
+    #gallery-desktop:hover #cake-kinds {
+        display: block;}
+        .cake-types {font-size: 20px;}
     
     /*Main birthday cakes*/
     #gallery-titles {
