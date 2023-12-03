@@ -139,7 +139,7 @@ nav a {
 #nav-toggle:checked~nav {
     text-decoration: none;
     background-color: lightpink;
-    padding-top: 50px;
+    padding-top: 20px;
     position: absolute;
     width: 40vw;
     height: 33vh;
@@ -151,6 +151,7 @@ nav a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 
 }
 
@@ -168,21 +169,25 @@ nav a {
 
 }
 
-.dropdown-content {
-    display: none;
+.dropdown-content {display: none;
     position: absolute;
-    z-index: 1;
+    z-index: 5;
     background-color: lightpink;
     font-size: 100%;
     border-radius: 5%;
-padding-right:0px;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    right: 120%;
+    top:0px;
+    font-size: 25px;
 }
 
 .dropdown-content a:hover {
     color: whitesmoke;
 }
 
-.dropdown:hover .dropdown-content {padding-right: 50px;
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
@@ -399,16 +404,16 @@ main {
 #kg-pic {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     border-radius: 15%;
     z-index: 3;
-margin-top: 100px;
-background-color: bisque;
-border-radius: 5%;
-padding: 20px;
-margin-bottom:10px;
-margin-left: 10px;
-margin-right: 10px;
+    margin-top: 100px;
+    background-color: bisque;
+    border-radius: 5%;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #details {
@@ -417,7 +422,7 @@ margin-right: 10px;
     padding: 20px;
     background-color: lightcyan;
     border-radius: 5%;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: 10px;
 
 }
@@ -536,11 +541,12 @@ footer {
 
     #logo {
         position: absolute;
-        left: 0;
-        right: 0;
+        left: 30%;
+        right: 30%;
         margin-left: auto;
         margin-right: auto;
         text-decoration: none;
+        z-index: 200;
     }
 
     #logo-button {
@@ -572,8 +578,12 @@ footer {
     #burger-icon {
         display: none;
     }
+.dropdown-content {  padding-left: 10px;
+    padding-bottom: 10px;
+    right: 0%;
+    top: 25px;px;
+    font-size: 12px;}
 
-    .dropdown { display: none; }
 
     /*Main birthday cakes*/
     #gallery-titles {
@@ -639,6 +649,6 @@ footer {
         margin-right: 100px;
     }
 
-    
+
 
 }
