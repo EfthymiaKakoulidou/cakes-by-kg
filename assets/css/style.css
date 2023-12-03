@@ -215,7 +215,7 @@ main {
     height: 100%;
     width: 100%;
     overflow: hidden;
-   background-size: cover;
+    background-size: cover;
 }
 
 
@@ -236,7 +236,7 @@ main {
 
 /*Birthday cakes*/
 
-#all-cakes {
+.all-cakes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,7 +301,7 @@ main {
     z-index: 1;
     width: 150px;
     height: 150px;
-    background-color: rgba(255, 228, 196, .8);
+    background-color: rgba(224, 255, 255, .8);
     border-radius: 25%;
 }
 
@@ -309,7 +309,7 @@ main {
     position: absolute;
     width: 150px;
     height: 150px;
-    background-color: rgba(255, 228, 196, .8);
+    background-color: rgba(224, 255, 255, .8);
     border-radius: 25%;
     transform: rotate(45deg);
 }
@@ -394,49 +394,65 @@ main {
 }
 
 /*Contact*/
-#contact-main {
+
+
+#kg-pic {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 80vw;
-    height: 100vh;
-    
-
-}
-
-#kg-pic {display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items:center;
     border-radius: 15%;
-    z-index: 2;
-    
-
+    z-index: 3;
+margin-top: 100px;
+background-color: bisque;
+border-radius: 5%;
+padding: 20px;
+margin-bottom:10px;
+margin-left: 10px;
+margin-right: 10px;
 }
 
-#details {display: flex;
+#details {
+    display: grid;
     z-index: 2;
     padding: 20px;
-    background-color:lightcyan;
-    border-radius: 15%;
-    
+    background-color: lightcyan;
+    border-radius: 5%;
+    margin-top:10px;
+    margin-left: 10px;
+
 }
 
-#form {display: flex;
+#phone {
+    display: grid;
+    width: 100%;
+}
+
+#email {
+    display: grid;
+    width: 100%;
+}
+
+#address {
+    display: grid;
+    width: 100%;
+}
+
+#form {
+    display: flex;
     z-index: 2;
     padding: 20px;
     display: flex;
     padding: 20px;
     background-color: lightpink;
-    border-radius: 15%;
-    
+    border-radius: 5%;
+
 }
 
 #form input {
     z-index: 2;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -466,10 +482,10 @@ main {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color:bisque;
+    background-color: bisque;
     padding: 10px;
     width: 80vw;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 
@@ -570,13 +586,21 @@ footer {
         padding-top: 150px;
     }
 
-  /*Main About*/
+    /*Main About*/
 
-  #video {width: 30vw;
-border-radius:25% ;}
-  #cv-text {width: 30vw;
-    border-radius:25% ;}
-#about-main {padding-top: 10vh;}
+    #video {
+        width: 30vw;
+        border-radius: 25%;
+    }
+
+    #cv-text {
+        width: 30vw;
+        border-radius: 25%;
+    }
+
+    #about-main {
+        padding-top: 10vh;
+    }
 
     /*Main Contact*/
 
@@ -584,17 +608,10 @@ border-radius:25% ;}
         flex-direction: row;
     }
 
-    #contact-main {
-        display: grid;
-        grid-template-columns: auto auto auto;
 
-    }
-
-    #form {display: grid;
+    #form {
         padding: 10px;
         width: 100%;
-        border-radius: 5%;
-
 
     }
 
@@ -603,30 +620,21 @@ border-radius:25% ;}
         width: 100%;
     }
 
-    #kg-pic {background-color: bisque;
+    #kg-pic {
+        background-color: bisque;
         padding: 10px;
-        border-radius: 15%;
-        display: grid;
         width: 100%;
+        margin-left: 100px;
+        margin-top: 0;
     }
 
-    #details { display:grid;
-        padding:10px;
+    #details {
         padding: 10px;
-        border-radius: 15%;
+        padding: 10px;
         width: 100%;
+        margin-right: 100px;
     }
 
-    #phone {
-        width: 100%;
-    }
-
-    #email {
-        width: 100%;
-    }
-
-    #address {
-        width: 100%;
-    }
+    
 
 }
