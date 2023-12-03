@@ -131,16 +131,18 @@ header {
 #navigation-menu {
     display: none;
     background-color: lightpink;
-    font-size: 35px;
+    font-size: 25px;
     width: 50vw;
 }
 
-#cake-kinds {display: none;
+#cake-kinds {
+    display: none;
     font-size: 30px;
+    padding-left: 30px;
 }
 
 .cake-types {
-   
+
     font-size: 20px;
 }
 
@@ -506,8 +508,8 @@ footer {
 
     #logo {
         position: absolute;
-        left: 30%;
-        right: 30%;
+        left: 40%;
+        right: 40%;
         margin-left: auto;
         margin-right: auto;
         text-decoration: none;
@@ -533,8 +535,9 @@ footer {
 
     #navigation {
         position: absolute;
-        width: 30%;
+        width: 40%;
         left: 70%;
+        display: flex;
     }
 
     #burger-icon {
@@ -542,33 +545,41 @@ footer {
     }
 
     #navigation-menu {
+        background-color: rgba(255, 182, 193, 0);
+        width: 300px;
         display: block;
-        background-color: lightpink;
-        width: 25vw;
         font-size: 20px;
         display: flex;
         flex-direction: row;
     }
 
-    #cake-kinds {
-        display: none;
+    #nav-toggle2 {
+        padding: 30%;
+    }
 
+    #cake-kinds {
+        background-color: rgba(255, 182, 193);
+        position: absolute;
+        padding: 10px;
+        display: none;
+        border-radius: 5%;
     }
 
     #nav-desktop {
         display: flex;
         flex-direction: row;
         width: 100%;
-        justify-content: space-around;
-    }
-
-    #gallery-desktop:hover #cake-kinds {
-        display: block;
+        justify-content: space-between
     }
 
     .cake-types {
         font-size: 20px;
     }
+
+    #gallery-desktop {
+        background-color: rgba(255, 182, 193);
+    }
+
 
     /*Main birthday cakes*/
     #gallery-titles {
