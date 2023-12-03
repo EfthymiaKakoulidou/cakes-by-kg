@@ -350,6 +350,7 @@ main {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    width: 300px;
 }
 
 #details {
@@ -360,7 +361,7 @@ main {
     border-radius: 5%;
     margin-top: 10px;
     margin-left: 10px;
-
+width: 300px;
 }
 
 #phone {
@@ -382,11 +383,9 @@ main {
     display: flex;
     z-index: 2;
     padding: 20px;
-    display: flex;
-    padding: 20px;
     background-color: lightpink;
     border-radius: 5%;
-
+    width: 300px;
 }
 
 #form input {
@@ -401,6 +400,8 @@ main {
     z-index: 2;
     width: 100%;
 }
+
+#form-details {width: 100%;}
 
 #map {
     z-index: 2;
@@ -556,15 +557,14 @@ footer {
 
     /*Main Contact*/
 
-    main {
+    main {align-items: center;
         flex-direction: row;
     }
 
 
-    #form {
+    #form {height: 300px;
         padding: 10px;
         width: 100%;
-
     }
 
     #map {
@@ -578,15 +578,19 @@ footer {
         width: 100%;
         margin-left: 100px;
         margin-top: 0;
+        height: 300px;
+        margin-bottom: 0px;
+
     }
 
-    #details {
+    #details {height: 300px;
         padding: 10px;
         padding: 10px;
         width: 100%;
         margin-right: 100px;
+        margin-top: 0px;
     }
 
-
+#message {height: 140px;}
 
 }
