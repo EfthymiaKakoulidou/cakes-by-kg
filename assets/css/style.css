@@ -237,6 +237,7 @@ main {
     align-items: center;
     font-weight: bolder;
     font-size: 25px;
+    font-family: "Oooh Baby";
 }
 
 /*Birthday cakes*/
@@ -581,7 +582,7 @@ footer {
 .dropdown-content {  padding-left: 10px;
     padding-bottom: 10px;
     right: 0%;
-    top: 25px;px;
+    top: 25px;
     font-size: 12px;}
 
 
