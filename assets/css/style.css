@@ -100,97 +100,31 @@ header {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    left: 15vw;
-    right: 15vw;
+    left: 20vw;
+    right: 20vw;
     text-align: center;
     margin-top: 0;
     z-index: 1;
     text-decoration: none;
 }
 
-/*Navnar styles with dropdown toggle*/
+/*Navbar styles with dropdown toggle*/
+#navigation {position: absolute;
+    left: 10vw;
+    width: 20vw;}
 
-#navigation-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    z-index: 50;
-    width: 100%;
-    height: 100%;
+    #burger-icon {font-size: 30px;}
 
+    #nav-toggle {display: none;}
 
-}
+    #nav-toggle:checked~#navigation-menu {display: block;}
 
-#navigation {display: flex;
-    display: none;
-}
-
-#navigation li {display: flex;
-flex-direction: row;}
-
-nav a {
-    text-decoration: none;
-    font-size: larger;
-    padding-right: 10px;
-}
-
-#nav-toggle {
-    text-decoration: none;
-    display: none;
-}
-
-#navigation{
-    text-decoration: none;
+#navigation-menu {display:none;
     background-color: lightpink;
-    padding-top: 10px;
-    position: absolute;
-    width: 90vw;
-    height: 50vh;
-    display: block;
-    border-radius: 5%;
-    font-size: 25px;
-    z-index: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-
+    font-size: 30px;
+    width: 50vw;
 }
-
-
-#burger-icon {
-    font-size: 4vh;
-    z-index: 2;
-}
-
-/*Dropdown Menu*/
-.dropdown {
-    position: relative;
-    display: inline-block;
-    border-radius: 5%;
-
-}
-
-.dropdown-content {display: none;
-    z-index: 5;
-    background-color: lightpink;
-    border-radius: 5%;
-    padding-right: 0px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    right: 120%;
-    top:0px;
-    font-size: 40px;
-    font-size: medium;
-}
-
-.dropdown-content a:hover {
-    color: whitesmoke;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+.cake-types {font-size: 20px;}
 
 h1 {
     font-family: "Oooh Baby";
@@ -567,28 +501,28 @@ footer {
     #lbutton1 {
         display: block;
     }
-
-
-    #navigation {
-        display: block;
+    #navigation {position: absolute;
+        width: 30%;
+        left:70%;
     }
-    #nav-toggle:checked~nav {width: 40vw;}
-
-    #nav-toggle {
-        display: none;
+    
+        #burger-icon {display: none;}
+    
+    #navigation-menu {display:block;
+        background-color: lightpink;
+        width: 25vw;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
     }
+    #cake-kinds {display: none;}
+    #nav-desktop {display: flex;
+        flex-direction: row;
+        width: 100%;
+    justify-content: space-around; }
 
-    #burger-icon {
-        display: none;
-    }
-.dropdown-content {  padding-left: 10px;
-    padding-bottom: 10px;
-    right: 0%;
-    top: 25px;
-    font-size: 12px;
-position:absolute;}
-
-
+    #gallery-desktop:hover #cake-kinds {display: block;}
+    
     /*Main birthday cakes*/
     #gallery-titles {
         position: absolute;
