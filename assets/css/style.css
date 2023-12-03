@@ -175,14 +175,14 @@ nav a {
     background-color: lightpink;
     font-size: 100%;
     border-radius: 5%;
-
+padding-right:0px;
 }
 
 .dropdown-content a:hover {
     color: whitesmoke;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {padding-right: 50px;
     display: block;
 }
 
@@ -486,6 +486,7 @@ margin-right: 10px;
     padding: 10px;
     width: 80vw;
     border-radius: 5%;
+    margin: 10px;
 }
 
 
@@ -495,8 +496,9 @@ margin-right: 10px;
     flex-direction: column;
     align-items: center;
     background-color: lightcyan;
-    border-radius: 10%;
+    border-radius: 5%;
     padding: 10px;
+    margin: 10px;
 
 }
 
@@ -571,6 +573,8 @@ footer {
         display: none;
     }
 
+    .dropdown { display: none; }
+
     /*Main birthday cakes*/
     #gallery-titles {
         position: absolute;
@@ -590,12 +594,12 @@ footer {
 
     #video {
         width: 30vw;
-        border-radius: 25%;
+        border-radius: 50px;
     }
 
     #cv-text {
         width: 30vw;
-        border-radius: 25%;
+        border-radius: 50px;
     }
 
     #about-main {
