@@ -183,7 +183,7 @@ nav a {
     font-size: 25px;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover a:active{
     color: whitesmoke;
 }
 
