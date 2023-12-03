@@ -132,7 +132,9 @@ header {
     display: none;
     background-color: lightpink;
     font-size: 25px;
-    width: 50vw;
+    width: 45vw;
+    border-radius: 5%;
+    padding-left: 10px;
 }
 
 #cake-kinds {
