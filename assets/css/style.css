@@ -12,12 +12,13 @@
 }
 
 /*General Styles*/
-body {background-image: url("../images/birthday-cakes/birthday-cake-3/sealife1.jpg");
+body {
+    background-image: url("../images/birthday-cakes/birthday-cake-3/sealife1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-background-color:rgba(255, 182, 193, .8);
+    background-color: rgba(255, 182, 193, .8);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,7 +28,10 @@ background-color:rgba(255, 182, 193, .8);
     font-family: "Mako";
 }
 
-.background-image-none {background-image: none;}
+.background-image-none {
+    background-image: none;
+}
+
 a:link {
     text-decoration: none;
     color: rgb(68, 33, 22);
@@ -108,8 +112,8 @@ header {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    left: 0px;
-    right: 0px;
+    left: 20vw;
+    right: 20vw;
     text-align: center;
     margin-top: 0;
     z-index: 1;
@@ -178,7 +182,7 @@ h2 {
 
 /*Main*/
 main {
-    
+
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -196,13 +200,15 @@ main {
     overflow: hidden;
     background-size: cover;
 }
-.background-cake-pic {display: flex;
+
+.background-cake-pic {
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-        overflow: hidden;
-        background-size: cover;
-    }
+    overflow: hidden;
+    background-size: cover;
+}
 
 .cakes {
     color: rgb(68, 33, 22);
@@ -232,7 +238,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 25%;
-    background-color: rgba(255, 182, 193, .8);
+    background-color: rgba(255, 228, 196, .8);
     width: 200px;
     height: 200px;
     z-index: 10;
@@ -241,7 +247,7 @@ main {
 #bcakes1 {
     position: absolute;
     border-radius: 25%;
-    background-color: rgba(255, 182, 193, .8);
+    background-color: rgba(255, 228, 196, .8);
     width: 200px;
     height: 200px;
     z-index: 2;
@@ -281,7 +287,7 @@ main {
     z-index: 1;
     width: 150px;
     height: 150px;
-    background-color: rgba(224, 255, 255, .8);
+    background-color: rgba(255, 228, 196, .8);
     border-radius: 25%;
 }
 
@@ -289,7 +295,7 @@ main {
     position: absolute;
     width: 150px;
     height: 150px;
-    background-color: rgba(224, 255, 255, .8);
+    background-color: rgba(255, 228, 196, .8);
     border-radius: 25%;
     transform: rotate(45deg);
 }
@@ -395,7 +401,7 @@ main {
     display: grid;
     z-index: 2;
     padding: 20px;
-    background-color: lightcyan;
+    background-color:bisque;
     border-radius: 5%;
     margin-top: 10px;
     margin-left: 10px;
@@ -421,7 +427,7 @@ main {
     display: flex;
     z-index: 2;
     padding: 20px;
-    background-color: lightpink;
+    background-color:bisque;
     border-radius: 5%;
     width: 300px;
 }
@@ -477,7 +483,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightcyan;
+    background-color:bisque;
     border-radius: 5%;
     padding: 10px;
     margin: 10px;
@@ -556,19 +562,19 @@ footer {
 
     #navigation-menu {
         background-color: rgba(255, 182, 193, 0);
-        width: 300px;
+        width: 70%;
         display: block;
         font-size: 20px;
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
 
     #nav-toggle2 {
         padding: 30%;
     }
 
-    #cake-kinds {
-        background-color: rgba(255, 182, 193);
+    #cake-kinds {background-color: lightpink;
         position: absolute;
         padding: 10px;
         display: none;
@@ -586,14 +592,9 @@ footer {
         font-size: 20px;
     }
 
-    #gallery-desktop {
-        background-color: rgba(255, 182, 193);
-    }
 
 
     /*Main birthday cakes*/
-    .background-cake-pic {width:100vw;
-        }
 
     #gallery-titles {
         position: absolute;
