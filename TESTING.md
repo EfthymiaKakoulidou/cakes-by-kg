@@ -16,7 +16,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Speciallty cakes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fspeciallty-cakes.html) | ![screenshot](documentation/html-validation-birthday-cakes.JPG) | no warnings|
 | Sweet Treats | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fsweet-treats.html) | ![screenshot](documentation/html-validation-birthday-cakes.JPG) | no warnings|
 | About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fabout.html) | ![screenshot](documentation/html-validation-birthday-cakes.JPG) | no warnings|
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.JPG) | obsolete iframe warnings |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.JPG) | no warnings |
 
 ### CSS
 
@@ -41,31 +41,10 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Responsiveness
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
-
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-Sample responsiveness testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
+| Device | Home | About | Contact | Birthday Cakes | Speciallty Cakes | Sweet Treats |
+| --- | --- | --- | --- | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.JPG) | ![screenshot](documentation/responsive-mobile-about.JPG) | ![screenshot](documentation/responsive-mobile-contact.JPG) | ![screenshot](documentation/responsive-mobile-etc.JPG) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.JPG) | ![screenshot](documentation/responsive-tablet-about.JPG) | ![screenshot](documentation/responsive-tablet-contact.JPG) | ![screenshot](documentation/responsive-tablet-etc.JPG) | Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop-home.JPG) | ![screenshot](documentation/responsive-desktop-about.JPG) | ![screenshot](documentation/responsive-desktop-contact.JPG) | ![screenshot](documentation/responsive-desktop-etc.JPG) | Works as expected |
