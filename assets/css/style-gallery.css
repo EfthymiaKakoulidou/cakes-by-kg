@@ -1,0 +1,664 @@
+/*Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mako&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mako&family=Oooh+Baby&family=Oswald:wght@200&family=Shadows+Into+Light&display=swap');
+
+
+/*Asterisk wildcard to override the default styles by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*General Styles*/
+body {
+    background-color: rgba(255, 182, 193, .8);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /*Generic Project Styles*/
+    color: rgb(68, 33, 22);
+    font-family: "Mako";
+}
+
+.background-image-none {
+    background-image: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(68, 33, 22);
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(68, 33, 22);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/*Header*/
+header {
+    background-color: rgba(255, 182, 193);
+    padding: 0 .7rem;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    z-index: 100;
+    display: flex;
+}
+
+
+#logo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+
+}
+
+#initials {
+    text-decoration: none;
+    font-family: "Oooh Baby";
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(116, 57, 16);
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+#lbutton {
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    background-color: bisque;
+    z-index: 5;
+    position: absolute;
+}
+
+#lbutton1 {
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+#logo {
+    font-family: "Oooh Baby";
+    font-size: 3vh;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 20vw;
+    right: 20vw;
+    text-align: center;
+    margin-top: 0;
+    z-index: 1;
+    text-decoration: none;
+}
+
+/*Navbar styles with dropdown toggle*/
+#navigation {
+    position: absolute;
+    left: 10vw;
+    width: 20vw;
+}
+
+#burger-icon {
+    font-size: 30px;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle:checked~#navigation-menu {
+    display: block;
+}
+
+#navigation-menu {
+    display: none;
+    background-color: lightpink;
+    font-size: 25px;
+    width: 45vw;
+    border-radius: 5%;
+    padding-left: 10px;
+}
+
+#cake-kinds {
+    display: none;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.cake-types {
+
+    font-size: 20px;
+}
+
+#nav-toggle2 {
+    display: none;
+}
+
+#nav-toggle2:checked~#cake-kinds {
+    display: block;
+}
+
+
+h1 {
+    font-family: "Oooh Baby";
+    padding-top: 7vh;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Oooh Baby";
+}
+
+
+/*Main*/
+main {
+
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Background pic*/
+
+
+
+.cake-pic {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.background-cake-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.cakes {
+    color: rgb(68, 33, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: "Oooh Baby";
+}
+
+/*Birthday cakes*/
+
+.all-cakes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#bcakes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    background-color: rgba(255, 228, 196, .8);
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+}
+
+#bcakes1 {
+    position: absolute;
+    border-radius: 25%;
+    background-color: rgba(255, 228, 196, .8);
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    transform: rotate(45deg);
+
+}
+
+/*Speciallty cakes*/
+
+#scakes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 228, 196, .8);
+    border-radius: 25%;
+}
+
+#scakes1 {
+    position: absolute;
+    z-index: 0;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 228, 196, .8);
+    border-radius: 25%;
+    transform: rotate(45deg);
+
+}
+
+/*Sweet Treats*/
+#sweet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 228, 196, .8);
+    border-radius: 25%;
+}
+
+#sweet1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 228, 196, .8);
+    border-radius: 25%;
+    transform: rotate(45deg);
+}
+
+
+
+/*Gallery Pictures*/
+
+
+#gallery-titles {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+
+#speciallty-cakes {
+    padding-top: 50px;
+}
+
+#sweet-treats {
+    padding-top: 50px;
+}
+
+.all-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+/*Container for every pic*/
+.gallery-pics {
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10%;
+
+}
+
+.gallery-pics-caption {
+    width: 150px;
+    height: 70px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+/*Container for pic and caption*/
+.img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fa-images {
+    right: 35px;
+    top: 20px;
+    position: absolute;
+    color: rgb(68, 33, 22);
+    z-index: 5;
+}
+
+.display-none {
+    display: none;
+}
+
+/*Images*/
+.cake-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Contact*/
+
+
+#kg-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    z-index: 3;
+    margin-top: 100px;
+    background-color: bisque;
+    border-radius: 5%;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+#details {
+    display: grid;
+    z-index: 2;
+    padding: 20px;
+    background-color:bisque;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+}
+
+#phone {
+    display: grid;
+    width: 100%;
+}
+
+#email {
+    display: grid;
+    width: 100%;
+}
+
+#address {
+    display: grid;
+    width: 100%;
+}
+
+#form {
+    display: flex;
+    z-index: 2;
+    padding: 20px;
+    background-color:bisque;
+    border-radius: 5%;
+    width: 300px;
+}
+
+#form input {
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#message {
+    z-index: 2;
+    width: 100%;
+}
+
+#form-details {
+    width: 100%;
+}
+
+#map {
+    z-index: 2;
+    padding-top: 20px;
+}
+
+/*About Page*/
+
+
+#about-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    text-align: center;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: bisque;
+    padding: 10px;
+    width: 80vw;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+
+#cv-text {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:bisque;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+/*Footer*/
+footer {
+    background-color: bisque;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    z-index: 100;
+
+}
+
+/*Social Media Links*/
+.social-media {
+    font-size: 40px;
+    display: flex;
+    padding-right: 10px;
+    padding-top: 5px;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+
+/*Media queries tablets and larger (768px and larger)*/
+@media screen and (min-width:768px) {
+
+    /*Header*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+
+    #logo {
+        position: absolute;
+        left: 20%;
+        right: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
+        z-index: 200;
+    }
+
+    #logo-button {
+        text-decoration: none;
+    }
+
+    #initials {
+        text-decoration: none;
+        display: block;
+    }
+
+    #lbutton {
+        display: block;
+    }
+
+    #lbutton1 {
+        display: block;
+    }
+
+    #navigation {
+        position: absolute;
+        width: 40%;
+        left: 70%;
+        display: flex;
+    }
+
+    #burger-icon {
+        display: none;
+    }
+
+    #navigation-menu {
+        background-color: rgba(255, 182, 193, 0);
+        width: 70%;
+        display: block;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #nav-toggle2 {
+        padding: 30%;
+    }
+
+    #cake-kinds {background-color: lightpink;
+        position: absolute;
+        padding: 10px;
+        display: none;
+        border-radius: 5%;
+    }
+
+    #nav-desktop {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between
+    }
+
+    .cake-types {
+        font-size: 20px;
+    }
+
+
+
+    /*Main birthday cakes*/
+
+    #gallery-titles {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 80%;
+    }
+
+    .all-pics {
+        padding-top: 150px;
+    }
+
+    /*Main About*/
+
+    #video {
+        width: 30vw;
+        border-radius: 50px;
+    }
+
+    #cv-text {
+        width: 30vw;
+        border-radius: 50px;
+    }
+
+    #about-main {
+        padding-top: 10vh;
+    }
+
+    /*Main Contact*/
+
+    main {
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+    #form {
+        height: 300px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    #map {
+        align-self: flex-end;
+        width: 100%;
+    }
+
+    #kg-pic {
+        background-color: bisque;
+        padding: 10px;
+        width: 100%;
+        margin-left: 100px;
+        margin-top: 0;
+        height: 300px;
+        margin-bottom: 0px;
+
+    }
+
+    #details {
+        height: 300px;
+        padding: 10px;
+        padding: 10px;
+        width: 100%;
+        margin-right: 100px;
+        margin-top: 0px;
+    }
+
+    #message {
+        height: 140px;
+    }
+
+}
