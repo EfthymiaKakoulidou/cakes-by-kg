@@ -224,6 +224,8 @@ This project can be cloned or forked in order to make a local copy on your own s
 
 ### Local VS Deployment
 
+There are no big differences between my local and the deployed version of the project.
+
 
 ## Credits
 
