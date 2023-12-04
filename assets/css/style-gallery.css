@@ -177,6 +177,14 @@ h2 {align-items: center;
 
 /*Main for Gallery*/
 
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /*Gallery Titles*/
 
 #gallery-titles {
@@ -296,8 +304,8 @@ footer {
 
     #logo {
         position: absolute;
-        left: 20%;
-        right: 20%;
+        left: 35%;
+        right: 35%;
         margin-left: auto;
         margin-right: auto;
         text-decoration: none;
@@ -364,7 +372,6 @@ footer {
         font-size: 20px;
     }
 
-
     /*Main galleries*/
 
     #gallery-titles {
@@ -379,64 +386,3 @@ footer {
     .all-pics {
         padding-top: 150px;
     }
-
-    /*Main About*/
-
-    #video {
-        width: 30vw;
-        border-radius: 50px;
-    }
-
-    #cv-text {
-        width: 30vw;
-        border-radius: 50px;
-    }
-
-    #about-main {
-        padding-top: 10vh;
-    }
-
-    /*Main Contact*/
-
-    main {
-        align-items: center;
-        flex-direction: row;
-    }
-
-
-    #form {
-        height: 300px;
-        padding: 10px;
-        width: 100%;
-    }
-
-    #map {
-        align-self: flex-end;
-        width: 100%;
-    }
-
-    #kg-pic {
-        background-color: bisque;
-        padding: 10px;
-        width: 100%;
-        margin-left: 100px;
-        margin-top: 0;
-        height: 300px;
-        margin-bottom: 0px;
-
-    }
-
-    #details {
-        height: 300px;
-        padding: 10px;
-        padding: 10px;
-        width: 100%;
-        margin-right: 100px;
-        margin-top: 0px;
-    }
-
-    #message {
-        height: 140px;
-    }
-
-}
