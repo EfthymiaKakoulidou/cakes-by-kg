@@ -13,7 +13,7 @@
 
 /*General Styles*/
 body {
-    background-color: rgba(255, 182, 193, .8);
+    background-color: rgba(255, 228, 196);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -341,12 +341,12 @@ main {
 .gallery-pics-caption {
     width: 150px;
     height: 70px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: justify;
 }
 
 /*Container for pic and caption*/
-.img {
+.img {padding: 10px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -354,7 +354,7 @@ main {
     flex-direction: column;
 }
 
-.fa-images {
+.fa-images {padding: 10px;
     right: 35px;
     top: 20px;
     position: absolute;
