@@ -45,14 +45,10 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Home | About | Contact | Birthday Cakes | Speciallty Cakes | Sweet Treats |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.JPG) | ![screenshot](documentation/responsive-mobile-about.JPG) | ![screenshot](documentation/responsive-mobile-contact.JPG) | ![screenshot](documentation/responsive-mobile-etc.JPG) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.JPG) | ![screenshot](documentation/responsive-tablet-about.JPG) | ![screenshot](documentation/responsive-tablet-contact.JPG) | ![screenshot](documentation/responsive-tablet-etc.JPG) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop-home.JPG) | ![screenshot](documentation/responsive-desktop-about.JPG) | ![screenshot](documentation/responsive-desktop-contact.JPG) | ![screenshot](documentation/responsive-desktop-etc.JPG) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl-home.JPG) | ![screenshot](documentation/responsive-xl-about.JPG) | ![screenshot](documentation/responsive-xl-contact.JPG) | ![screenshot](documentation/responsive-xl-etc.JPG) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k-home.JPG) | ![screenshot](documentation/responsive-4k-about.JPG) | ![screenshot](documentation/responsive-4k-contact.JPG) | ![screenshot](documentation/responsive-4k-etc.JPG) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel-home.JPG) | ![screenshot](documentation/responsive-pixel-about.JPG) | ![screenshot](documentation/responsive-pixel-contact.JPG) | ![screenshot](documentation/responsive-pixel-etc.JPG) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone-home.JPG) | ![screenshot](documentation/responsive-iphone-about.JPG) | ![screenshot](documentation/responsive-iphone-contact.JPG) | ![screenshot](documentation/responsive-iphone-etc.JPG) | Works as expected |
-| repeat for any other tested browsers | x | x | x | x | x |
+| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.JPG) | ![screenshot](documentation/responsive-mobile-about.JPG) | ![screenshot](documentation/responsive-mobile-contact.JPG) | ![screenshot](documentation/responsive-mobile-birthday-cakes.JPG) | ![screenshot](documentation/responsive-mobile-speciallty-cakes.JPG) | ![screenshot](documentation/responsive-mobile-sweet-treats.JPG) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.JPG) | ![screenshot](documentation/responsive-tablet-about.JPG) | ![screenshot](documentation/responsive-tablet-contact.JPG) | ![screenshot](documentation/responsive-tablet-birthday-cakes.JPG) | ![screenshot](documentation/responsive-tablet-speciallty-cakes.JPG) | ![screenshot](documentation/responsive-tablet-sweet-treats.JPG) | Works as expected |
+| Desktop | ![screenshot](documentation/responsive-desktop-home.JPG) | ![screenshot](documentation/responsive-desktop-about.JPG) | ![screenshot](documentation/responsive-desktop-contact.JPG) | ![screenshot](documentation/responsive-desktop-birthday-cakes.JPG) | ![screenshot](documentation/responsive-desktop-speciallty-cakes.JPG) | ![screenshot](documentation/responsive-desktop-sweet-treats.JPG) | Works as expected |
+
 
 ## Lighthouse Audit
 
