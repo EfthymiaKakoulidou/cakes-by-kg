@@ -151,9 +151,9 @@ The Sweet treats page
 
 ![screenshot](documentation/feature02.JPG)
 
-- The about link
+- The links to the gallery
 
-    - This feature placed a little off center directs the user to the about page. It is essentially the logo button. In smaller screens the logo button disappears but the about-link stays so that we won't miss any information.
+    - Since the galleries are the most interesting part of the site I thought it would be nice to have direct links to them that are visible and clear on the home page.
 
 ![screenshot](documentation/feature03.JPG)
 
@@ -161,21 +161,38 @@ The Sweet treats page
 
     - This feature is essential to the user. It is used to navigate the user to the diffrent pages of the site directly from the home page.
 
+![screenshot](documentation/feature04.JPG)
+
+![screenshot](documentation/feature041.JPG)
+
+![screenshot](documentation/feature042.JPG)
+
+
 - The video feature
 
     - This feature is used to keep the interest of the user on the about page.
+    
+![screenshot](documentation/feature05.JPG)
 
 - The contact form
 
     - This feature is used to give to the user the opportunity to contact the owner directly from the site without having to leave the page.
 
+![screenshot](documentation/feature06.JPG)
+
 - The google maps i frame
 
     - This feature is used to show the location of the owner on the map since an address on its own may not provide the same amount of information to all the users.
 
+![screenshot](documentation/feature08.JPG)
+
 - The birthday cakes/speciallty cakes/sweet treats galleries
 
     - There are all of the images here. The user can click on the preview image of each cake and see it enlarged so they can study the details. Also more pictures of the same cake -hidden behind the preview picture - are provided for more information.
+
+![screenshot](documentation/feature08.JPG)
+
+![screenshot](documentation/feature09.JPG)
 
 ### Future Features
 
