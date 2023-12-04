@@ -22,7 +22,7 @@ The choice of colours was based on we typically associate to sweet flavors. I ch
 
 I used [coolors.co](https://coolors.co/palette/ffb6c1-ffe4c4-8b4513-e0ffff-ffffff) to generate my colour palette.
 
-![screenshot](images/PP1 colour palette.png)
+![screenshot](images/PP1 colour palette.JPG)
 
 ### Typography
 
@@ -57,15 +57,6 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell 
 
-**IMPORTANT**! **IMPORTANT**! **IMPORTANT**!
-The example below uses the `details` and `summary` code elements.
-However, for these scripts to work, I've had to add spaces within the `< >` elements.
-
-You MUST remove these spaces for it to work properly on your own README/TESTING files.
-Remove the spaces within the `< >` brackets for the `details` and `summary` code elements,
-for the Mobile, Tablet, and Desktop wireframes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
@@ -94,19 +85,19 @@ Gallery
 ### Tablet Wireframes
 
 <details>
-<summary> Click here to see the Tablet Wireframes <summary>
+<summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
+  - ![screenshot](documentation/wireframes/tablet-home.JPG)
 
 About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
+  - ![screenshot](documentation/wireframes/tablet-about.JPG)
 
 Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
+  - ![screenshot](documentation/wireframes/tablet-contact.JPG)
 
 Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
+  - ![screenshot](documentation/wireframes/tablet-gallery.JPG)
 
 etc.
   - repeat for any remaining tablet wireframes
@@ -152,19 +143,19 @@ The Sweet treats page
 
     - The logo button is the expression of the whole graphic language of the site in the header. It has the owners initials on it and directs the user to the about page to learn more about the owner.
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/feature01.JPG)
 
 - The welcome link
 
     - This feature takes up the center and most important part of the page. It directs the user to the Gallery page which is the page of interest.
 
-![screenshot](documentation/feature02.png)
+![screenshot](documentation/feature02.JPG)
 
 - The about link
 
     - This feature placed a little off center directs the user to the about page. It is essentially the logo button. In smaller screens the logo button disappears but the about-link stays so that we won't miss any information.
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature03.JPG)
 
 - The navigation bar with the dropdown menu
 
