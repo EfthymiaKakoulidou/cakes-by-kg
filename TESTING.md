@@ -11,70 +11,24 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | No warning |
+| Birthday cakes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fbirthday-cakes.html) | ![screenshot](documentation/html-validation-birthday-cakes.png) | no warnings|
+| Speciallty cakes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fspeciallty-cakes.html) | ![screenshot](documentation/html-validation-birthday-cakes.png) | no warnings|
+| Sweet Treats | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fsweet-treats.html) | ![screenshot](documentation/html-validation-birthday-cakes.png) | no warnings|
+| About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fabout.html) | ![screenshot](documentation/html-validation-birthday-cakes.png) | no warnings|
 | Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.png) | obsolete iframe warnings |
-
 
 ### CSS
 
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- If you are copying/pasting your HTML code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-- (*recommended*) If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
-
-It's recommended to validate the live site if you only have a single CSS file using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to the page to validate it again in the future.
-The URL will look something like this:
-
-- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg
-
-If you have multiple CSS files, then individual [validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)
-is recommended for the additional CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using extras like Bootstrap, Materialize, Font Awesome, then sometimes the validator
-will attempt to also validate this code, even if it's not part of your own actual code.
-You are not required to validate the external libraries or frameworks!
-
-Sample CSS code validation documentation (tables are extremely helpful!):
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files and since I have 2 CSS files I used the "direct input" option.
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
-| checkout.css | n/a | ![screenshot](documentation/css-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining CSS files |
+| style-gallery.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
+
 
 ## Browser Compatibility
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to discuss testing the live/deployed site on various browsers.
-
-Consider testing at least 3 different browsers, if available on your system.
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
-
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-Sample browser testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
