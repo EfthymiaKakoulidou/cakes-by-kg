@@ -162,11 +162,10 @@ header {
     display: block;
 }
 
-
-h1 {
+h1 {font-size: 32px;
+    color: rgb(68, 33, 22);
+    text-align: center;
     font-family: "Oooh Baby";
-    padding-top: 7vh;
-    text-decoration: none;
 }
 
 h2 {
@@ -287,6 +286,7 @@ footer {
 @media screen and (min-width:768px) {
 
     /*Header*/
+
     header {
         display: flex;
         justify-content: space-between;
@@ -364,8 +364,7 @@ footer {
     }
 
 
-
-    /*Main birthday cakes*/
+    /*Main galleries*/
 
     #gallery-titles {
         position: absolute;
