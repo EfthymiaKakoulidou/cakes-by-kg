@@ -171,7 +171,7 @@ The Sweet treats page
 - The video feature
 
     - This feature is used to keep the interest of the user on the about page.
-    
+
 ![screenshot](documentation/feature05.JPG)
 
 - The contact form
@@ -246,8 +246,6 @@ There are no big differences between my local and the deployed version of the pr
 
 ## Credits
 
-I got all the content of the site from the owners instagram : https://www.instagram.com/cakebykg/
-
 I got help for troubleshooting my problems from :
 https://stackoverflow.com/
 https://www.w3schools.com/
@@ -268,7 +266,7 @@ https://www.google.com in general for every little question that I need a quick 
 
 ### Content
 
-
+I got all the content of the site from the owners instagram : https://www.instagram.com/cakebykg/
 
 ### Media
 
