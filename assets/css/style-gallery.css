@@ -175,130 +175,9 @@ h2 {
 }
 
 
-/*Main*/
-main {
+/*Main for Gallery*/
 
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-/*Background pic*/
-
-
-
-.cake-pic {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background-size: cover;
-}
-
-.background-cake-pic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    overflow: hidden;
-    background-size: cover;
-}
-
-.cakes {
-    color: rgb(68, 33, 22);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 25px;
-    font-family: "Oooh Baby";
-}
-
-/*Birthday cakes*/
-
-.all-cakes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-}
-
-#bcakes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25%;
-    background-color: rgba(255, 228, 196, .8);
-    width: 200px;
-    height: 200px;
-    z-index: 10;
-}
-
-#bcakes1 {
-    position: absolute;
-    border-radius: 25%;
-    background-color: rgba(255, 228, 196, .8);
-    width: 200px;
-    height: 200px;
-    z-index: 2;
-    transform: rotate(45deg);
-
-}
-
-/*Speciallty cakes*/
-
-#scakes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    background-color: rgba(255, 228, 196, .8);
-    border-radius: 25%;
-}
-
-#scakes1 {
-    position: absolute;
-    z-index: 0;
-    width: 150px;
-    height: 150px;
-    background-color: rgba(255, 228, 196, .8);
-    border-radius: 25%;
-    transform: rotate(45deg);
-
-}
-
-/*Sweet Treats*/
-#sweet {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    background-color: rgba(255, 228, 196, .8);
-    border-radius: 25%;
-}
-
-#sweet1 {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background-color: rgba(255, 228, 196, .8);
-    border-radius: 25%;
-    transform: rotate(45deg);
-}
-
-
-
-/*Gallery Pictures*/
-
+/*Gallery Titles*/
 
 #gallery-titles {
     margin-left: auto;
@@ -315,6 +194,8 @@ main {
     padding-top: 50px;
 }
 
+/* General for the galleries*/
+
 .all-pics {
     display: flex;
     justify-content: center;
@@ -327,25 +208,26 @@ main {
 }
 
 /*Container for every pic*/
+
 .gallery-pics {
-    width: 150px;
-    height: 200px;
+    width: 230px;
+    height: 300px;
     overflow: hidden;
     margin: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
     border-radius: 10%;
-
 }
 
 .gallery-pics-caption {
-    width: 150px;
+    width: 230px;
     height: 70px;
     font-size: 14px;
     text-align: justify;
 }
 
 /*Container for pic and caption*/
+
 .img {padding: 20px;
     position: relative;
     display: flex;
@@ -354,7 +236,9 @@ main {
     flex-direction: column;
 }
 
-.fa-images {padding: 20px;
+/*Images icons*/
+
+.fa-images {padding: 35px;
     right: 35px;
     top: 20px;
     position: absolute;
@@ -366,126 +250,16 @@ main {
     display: none;
 }
 
-/*Images*/
+/*Styles for all the figures*/
+
 .cake-pic {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/*Contact*/
-
-
-#kg-pic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15%;
-    z-index: 3;
-    margin-top: 100px;
-    background-color: bisque;
-    border-radius: 5%;
-    padding: 20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 300px;
-}
-
-#details {
-    display: grid;
-    z-index: 2;
-    padding: 20px;
-    background-color:bisque;
-    border-radius: 5%;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 300px;
-}
-
-#phone {
-    display: grid;
-    width: 100%;
-}
-
-#email {
-    display: grid;
-    width: 100%;
-}
-
-#address {
-    display: grid;
-    width: 100%;
-}
-
-#form {
-    display: flex;
-    z-index: 2;
-    padding: 20px;
-    background-color:bisque;
-    border-radius: 5%;
-    width: 300px;
-}
-
-#form input {
-    z-index: 2;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#message {
-    z-index: 2;
-    width: 100%;
-}
-
-#form-details {
-    width: 100%;
-}
-
-#map {
-    z-index: 2;
-    padding-top: 20px;
-}
-
-/*About Page*/
-
-
-#about-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 5;
-    text-align: center;
-}
-
-#video {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: bisque;
-    padding: 10px;
-    width: 80vw;
-    border-radius: 5%;
-    margin: 10px;
-}
-
-
-#cv-text {
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:bisque;
-    border-radius: 5%;
-    padding: 10px;
-    margin: 10px;
-
-}
-
 /*Footer*/
+
 footer {
     background-color: bisque;
     height: 50px;
@@ -497,6 +271,7 @@ footer {
 }
 
 /*Social Media Links*/
+
 .social-media {
     font-size: 40px;
     display: flex;
@@ -508,6 +283,7 @@ footer {
 }
 
 /*Media queries tablets and larger (768px and larger)*/
+
 @media screen and (min-width:768px) {
 
     /*Header*/

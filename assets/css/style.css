@@ -5,6 +5,7 @@
 
 
 /*Asterisk wildcard to override the default styles by the browser*/
+
 * {
     padding: 0;
     margin: 0;
@@ -12,24 +13,22 @@
 }
 
 /*General Styles*/
+
 body {
     background-image: url("../images/birthday-cakes/birthday-cake-3/sealife1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgba(255, 182, 193, .8);
+    background-color: rgba(255, 182, 193);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 
-    /*Generic Project Styles*/
+/*Generic Project Styles*/
+
     color: rgb(68, 33, 22);
     font-family: "Mako";
-}
-
-.background-image-none {
-    background-image: none;
 }
 
 a:link {
@@ -44,6 +43,7 @@ a:visited {
 }
 
 a:hover {
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -51,8 +51,20 @@ ul {
     list-style-type: none;
 }
 
+h1 {
+    font-family: "Oooh Baby";
+    padding-top: 7vh;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Oooh Baby";
+}
+
 
 /*Header*/
+
 header {
     background-color: rgba(255, 182, 193);
     padding: 0 .7rem;
@@ -64,6 +76,7 @@ header {
     display: flex;
 }
 
+/*Logo on the left*/
 
 #logo-button {
     display: flex;
@@ -106,6 +119,8 @@ header {
     z-index: 1;
 }
 
+/*Logo in the middle*/
+
 #logo {
     font-family: "Oooh Baby";
     font-size: 3vh;
@@ -121,6 +136,7 @@ header {
 }
 
 /*Navbar styles with dropdown toggle*/
+
 #navigation {
     position: absolute;
     left: 10vw;
@@ -155,7 +171,6 @@ header {
 }
 
 .cake-types {
-
     font-size: 20px;
 }
 
@@ -168,21 +183,9 @@ header {
 }
 
 
-h1 {
-    font-family: "Oooh Baby";
-    padding-top: 7vh;
-    text-decoration: none;
-}
-
-h2 {
-    text-align: center;
-    font-family: "Oooh Baby";
-}
-
-
 /*Main*/
-main {
 
+main {
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -190,24 +193,17 @@ main {
     flex-direction: column;
 }
 
-/*Background pic*/
+/*Main for the home page*/
 
-
-
-.cake-pic {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background-size: cover;
-}
-
-.background-cake-pic {
+.all-cakes {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    overflow: hidden;
-    background-size: cover;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .cakes {
@@ -220,18 +216,7 @@ main {
     font-family: "Oooh Baby";
 }
 
-/*Birthday cakes*/
-
-.all-cakes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-}
+/*Home page Birthday cakes*/
 
 #bcakes {
     display: flex;
@@ -252,10 +237,9 @@ main {
     height: 200px;
     z-index: 2;
     transform: rotate(45deg);
-
 }
 
-/*Speciallty cakes*/
+/*Home page Speciallty cakes*/
 
 #scakes {
     display: flex;
@@ -276,10 +260,10 @@ main {
     background-color: rgba(255, 228, 196, .8);
     border-radius: 25%;
     transform: rotate(45deg);
-
 }
 
-/*Sweet Treats*/
+/*Home page Sweet Treats*/
+
 #sweet {
     display: flex;
     justify-content: center;
@@ -301,85 +285,7 @@ main {
 }
 
 
-
-/*Gallery Pictures*/
-
-
-#gallery-titles {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-}
-
-
-#speciallty-cakes {
-    padding-top: 50px;
-}
-
-#sweet-treats {
-    padding-top: 50px;
-}
-
-.all-pics {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 30px;
-    margin-bottom: 30px;
-
-}
-
-/*Container for every pic*/
-.gallery-pics {
-    width: 150px;
-    height: 200px;
-    overflow: hidden;
-    margin: 30px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-radius: 10%;
-
-}
-
-.gallery-pics-caption {
-    width: 150px;
-    height: 70px;
-    font-size: 12px;
-    text-align: justify;
-}
-
-/*Container for pic and caption*/
-.img {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.fa-images {
-    right: 35px;
-    top: 20px;
-    position: absolute;
-    color: rgb(68, 33, 22);
-    z-index: 5;
-}
-
-.display-none {
-    display: none;
-}
-
-/*Images*/
-.cake-pic {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/*Contact*/
-
+/*Main Contact*/
 
 #kg-pic {
     display: flex;
@@ -401,10 +307,11 @@ main {
     display: grid;
     z-index: 2;
     padding: 20px;
-    background-color:bisque;
+    background-color: bisque;
     border-radius: 5%;
     margin-top: 10px;
     margin-left: 10px;
+    margin-bottom: 20px;
     width: 300px;
 }
 
@@ -427,7 +334,7 @@ main {
     display: flex;
     z-index: 2;
     padding: 20px;
-    background-color:bisque;
+    background-color: bisque;
     border-radius: 5%;
     width: 300px;
 }
@@ -440,7 +347,8 @@ main {
     justify-content: center;
 }
 
-#message {height: 140px;
+#message {
+    height: 140px;
     z-index: 2;
     width: 100%;
 }
@@ -455,7 +363,6 @@ main {
 }
 
 /*About Page*/
-
 
 #about-main {
     display: flex;
@@ -477,13 +384,12 @@ main {
     margin: 10px;
 }
 
-
 #cv-text {
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:bisque;
+    background-color: bisque;
     border-radius: 5%;
     padding: 10px;
     margin: 10px;
@@ -524,8 +430,8 @@ footer {
 
     #logo {
         position: absolute;
-        left: 20%;
-        right: 20%;
+        left: 30%;
+        right: 30%;
         margin-left: auto;
         margin-right: auto;
         text-decoration: none;
@@ -574,7 +480,8 @@ footer {
         padding: 30%;
     }
 
-    #cake-kinds {background-color: lightpink;
+    #cake-kinds {
+        background-color: lightpink;
         position: absolute;
         padding: 10px;
         display: none;
@@ -593,21 +500,7 @@ footer {
     }
 
 
-
-    /*Main birthday cakes*/
-
-    #gallery-titles {
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        bottom: 80%;
-    }
-
-    .all-pics {
-        padding-top: 150px;
-    }
-
-    /*Main About*/
+    /*Main About page*/
 
     #video {
         width: 300px;
@@ -623,7 +516,7 @@ footer {
         padding-top: 10vh;
     }
 
-    /*Main Contact*/
+    /*Main Contact page*/
 
     main {
         align-items: center;
@@ -655,10 +548,11 @@ footer {
         padding: 20px;
         padding: 10px;
         margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     #message {
-        height: 140px;
+        height: 30vh;
     }
 
 }
