@@ -440,7 +440,7 @@ main {
     justify-content: center;
 }
 
-#message {
+#message {height: 140px;
     z-index: 2;
     width: 100%;
 }
@@ -472,14 +472,14 @@ main {
     align-content: center;
     background-color: bisque;
     padding: 10px;
-    width: 80vw;
+    width: 300px;
     border-radius: 5%;
     margin: 10px;
 }
 
 
 #cv-text {
-    width: 80vw;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -610,13 +610,13 @@ footer {
     /*Main About*/
 
     #video {
-        width: 30vw;
-        border-radius: 50px;
+        width: 300px;
+        border-radius: 5%;
     }
 
     #cv-text {
-        width: 30vw;
-        border-radius: 50px;
+        width: 300px;
+        border-radius: 5%;
     }
 
     #about-main {
@@ -632,9 +632,8 @@ footer {
 
 
     #form {
-        height: 300px;
-        padding: 10px;
-        width: 100%;
+        height: 400px;
+        padding: 20px;
     }
 
     #map {
@@ -644,21 +643,17 @@ footer {
 
     #kg-pic {
         background-color: bisque;
-        padding: 10px;
-        width: 100%;
-        margin-left: 100px;
+        padding: 20px;
         margin-top: 0;
-        height: 300px;
+        height: 400px;
         margin-bottom: 0px;
 
     }
 
     #details {
-        height: 300px;
+        height: 400px;
+        padding: 20px;
         padding: 10px;
-        padding: 10px;
-        width: 100%;
-        margin-right: 100px;
         margin-top: 0px;
     }
 
