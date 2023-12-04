@@ -43,7 +43,7 @@ a:visited {
 }
 
 a:hover {
-    color: whitesmoke;
+    
     text-decoration: none;
 }
 
@@ -187,6 +187,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 80px;
 }
 
 /*Main for the home page*/
@@ -289,7 +290,7 @@ main {
     align-items: center;
     border-radius: 15%;
     z-index: 3;
-    margin-top: 100px;
+    margin-top: 20px;
     background-color: bisque;
     border-radius: 5%;
     padding: 20px;
@@ -556,5 +557,6 @@ footer {
     #message {
         height: 30vh;
     }
-
 }
+ 
+
