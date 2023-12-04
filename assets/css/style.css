@@ -501,14 +501,20 @@ footer {
     #video {
         width: 300px;
         border-radius: 5%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #cv-text {
         width: 300px;
         border-radius: 5%;
+        height:400px;
     }
 
     #about-main {
+        flex-direction: row;
         padding-top: 10vh;
     }
 
