@@ -77,8 +77,6 @@ Birthday Cakes
 Speciallty Cakes
   - ![screenshot](documentation/wireframes/mobile-speciallty-cakes.png)
 
-Sweet Treats
-  - ![screenshot](documentation/wireframes/mobile-sweet-treats.png)
 
 </details>
 
