@@ -289,6 +289,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     border-radius: 15%;
     z-index: 3;
     margin-top: 20px;
@@ -300,6 +301,11 @@ main {
     margin-right: 10px;
     width: 300px;
 }
+
+#kg-pic-caption {text-align: center;
+    font-weight: bold;
+    font-family: "Oooh Baby";
+    padding-top: 20px;}
 
 #details {
     display: grid;
@@ -313,17 +319,7 @@ main {
     width: 300px;
 }
 
-#phone {
-    display: grid;
-    width: 100%;
-}
-
-#email {
-    display: grid;
-    width: 100%;
-}
-
-#address {
+#phone, #email, #address{
     display: grid;
     width: 100%;
 }
@@ -345,8 +341,20 @@ main {
     justify-content: center;
 }
 
+#submit {
+    font-size: 14px;
+    font-family: "Mako";
+    background-color: lightpink;
+}
+
+#name, #e-mail, #message, #submit {
+    padding: 5px;
+    border: none;
+    line-height: 2;
+    border-radius: 15px;}
+
 #message {
-    height: 140px;
+    height: 30%;
     z-index: 2;
     width: 100%;
 }
@@ -554,10 +562,8 @@ footer {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    #message {height: 50%;}
 
-    #message {
-        height: 60%;
-    }
 }
  
 
