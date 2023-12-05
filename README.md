@@ -4,7 +4,7 @@
 Cakes by KG is a website aiming to provide information about the services Katerina Glykou offers which are designing and baking cakes. Apart from the information, the project hopes to inspire the user in the process of chosing a cake. The target audience is people in the Stockholm region who need to order cakes. With the use of picture and contact information the target audience will be able to be inspired chose a cake and order it.
 
 
-![screenshot](images/responsive site.JPG)
+![screenshot](documentation/responsive-site.JPG)
 
 ## UX
 
@@ -12,17 +12,17 @@ My aim was to create an accessible and easy-to-navigate website. I wanted it to 
 
 ### Colour Scheme
 
-The choice of colours was based on we typically associate to sweet flavors. I chose pink for sugar, beige for cream, brown for chocolate and white. I also chose a lightcyan color inspired by the colour of the cake used as background image.
+The choice of colours was based on we typically associate to sweet flavors. I chose pink for sugar, beige for cream, brown for chocolate and white. Because of the background image being so colourful I chose not use more colours to tone it down.
 
-- saddlebrown used for primary text.
-- lightpink used for background to several parts.
-- bisque used for the logo.
-- bisque used for background to the pages that there is not a background image.
+-  used for all text.
+- lightpink used for background to the header and as backround for the galleries so that the images there can be easily seen
+- bisque used for the logo and as background to the text having the needed contrast for accessibility.
+.
 
 
 I used [coolors.co](https://coolors.co/palette/ffb6c1-ffe4c4-8b4513-e0ffff-ffffff) to generate my colour palette.
 
-![screenshot](images/PP1 colour palette.JPG)
+![screenshot](documentation/pallette.png)
 
 ### Typography
 
@@ -52,14 +52,10 @@ As a user of this site I would like to be able to get inspired and order my cake
 
 ## Wireframes
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+To follow best practice, wireframes were developed for mobile, and desktop sizes. The tablet sizes follow the mobile sizes layout.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+Although the final project might differ from the initial wireframes I kept the main concept intact and just added some features along the way where I thought they might be needed.
+
 
 ### Mobile Wireframes
 
@@ -75,34 +71,17 @@ About
 Contact
   - ![screenshot](documentation/wireframes/mobile-contact.png)
 
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
+Birthday Cakes
+  - ![screenshot](documentation/wireframes/mobile-birthday-cakes.png)
 
+Speciallty Cakes
+  - ![screenshot](documentation/wireframes/mobile-speciallty-cakes.png)
 
-
-</details>
-
-### Tablet Wireframes
-
-<details>
-<summary> Click here to see the Tablet Wireframes </summary>
-
-Home
-  - ![screenshot](documentation/wireframes/tablet-home.JPG)
-
-About
-  - ![screenshot](documentation/wireframes/tablet-about.JPG)
-
-Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.JPG)
-
-Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.JPG)
-
-etc.
-  - repeat for any remaining tablet wireframes
+Sweet Treats
+  - ![screenshot](documentation/wireframes/mobile-sweet-treats.png)
 
 </details>
+
 
 ### Desktop Wireframes
 
@@ -118,11 +97,14 @@ About
 Contact
   - ![screenshot](documentation/wireframes/desktop-contact.png)
 
-Gallery
-  - ![screenshot](documentation/wireframes/desktop-gallery.png)
+Birthday Cakes
+  - ![screenshot](documentation/wireframes/desktop-birthday-cakes.png)
 
-etc.
-  - repeat for any remaining desktop wireframes
+Speciallty Cakes
+  - ![screenshot](documentation/wireframes/desktop-speciallty-cakes.png)
+
+Sweet Treats
+  - ![screenshot](documentation/wireframes/desktop-sweet-treats.png)
 
 </details>
 
