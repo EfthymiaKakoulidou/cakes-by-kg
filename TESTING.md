@@ -64,6 +64,17 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Sweet Treats | ![screenshot](documentation/lighthouse-sweet-treats-mobile.JPG) | ![screenshot](documentation/lighthouse-sweet-treats-desktop.JPG) | Slow response time due to large images |
 
 
+## Manual Testing
+
+The owner of the site tested it on her iPhone 8 and provided screenshots:
+
+![screenshot](documentation/kg-home.JPG)
+![screenshot](documentation/kg-about.JPG)
+![screenshot](documentation/kg-contact.JPG)
+![screenshot](documentation/kg-birthday-cakes.JPG)
+![screenshot](documentation/kg-speciallty-cakes.JPG)
+![screenshot](documentation/kg-sweet-treats.JPG)
+
 ## User Story Testing
 
 
@@ -81,58 +92,12 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Bugs
 
+![screenshot](documentation/bug.JPG)
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+I had this bug and to fix it I took away this line of code.
 
-    ![screenshot](documentation/bug01.JPG)
-
-    - To fix this, I _____________________.
-
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
-
-    ![screenshot](documentation/bug02.JPG)
-
-    - To fix this, I _____________________.
-
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
-
-    ![screenshot](documentation/bug03.JPG)
-
-    - To fix this, I _____________________.
-
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
-
-    ![screenshot](documentation/bug04.JPG)
-
-    - To fix this, I _____________________.
-
-- Python `E501 line too long` (93 > 79 characters)
-
-    ![screenshot](documentation/bug04.JPG)
-
-    - To fix this, I _____________________.
 
 ## Unfixed Bugs
 
-
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
-
-    ![screenshot](documentation/unfixed-bug01.JPG)
-
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
-
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
-
-    ![screenshot](documentation/unfixed-bug02.JPG)
-
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/unfixed-bug03.JPG)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-
-There are no remaining bugs that I am aware of.
+There are no know unfixed bugs.
  

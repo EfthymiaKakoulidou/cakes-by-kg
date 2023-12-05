@@ -206,8 +206,9 @@ main {
 .cakes {
     color: rgb(68, 33, 22);
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    flex-direction: column;
     font-weight: bolder;
     font-size: 25px;
     font-family: "Oooh Baby";
@@ -215,7 +216,7 @@ main {
 
 /*Home page Birthday cakes*/
 
-#bcakes {
+#bcakes {text-decoration: underline;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,7 +239,7 @@ main {
 
 /*Home page Speciallty cakes*/
 
-#scakes {
+#scakes {text-decoration: underline;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,7 +262,7 @@ main {
 
 /*Home page Sweet Treats*/
 
-#sweet {
+#sweet {text-decoration: underline;
     display: flex;
     justify-content: center;
     align-items: center;

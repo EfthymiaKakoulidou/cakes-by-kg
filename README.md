@@ -1,7 +1,7 @@
 # [CAKES BY KG](https://efthymiakakoulidou.github.io/cakes-by-kg)
 
 
-Cakes by KG is a website aiming to provide information about the services Katerina Glykou offers which are designing and baking cakes. Apart from the information, the project hopes to inspire the user in the process of chosing a cake. The target audience is people in the Stockholm region who need to order cakes. With the use of picture and contact information the target audience will be able to be inspired chose a cake and order it.
+Cakes by KG is a website aiming to provide information about the services Katerina Glykou offers which are designing and baking cakes. Apart from the information, the project hopes to inspire the user in the process of chosing a cake. The target audience is people in the Stockholm region who need to order cakes. With the use of picture and contact information the target audience will be able to be inspired choose a cake and order it.
 
 
 ![screenshot](documentation/responsive-site.JPG)
@@ -14,9 +14,9 @@ My aim was to create an accessible and easy-to-navigate website. I wanted it to 
 
 The choice of colours was based on we typically associate to sweet flavors. I chose pink for sugar, beige for cream, brown for chocolate and white. Because of the background image being so colourful I chose not use more colours to tone it down.
 
--  used for all text.
-- lightpink used for background to the header and as backround for the galleries so that the images there can be easily seen
-- bisque used for the logo and as background to the text having the needed contrast for accessibility.
+- rgb 68,33,22 - Dark brown -used for all text.
+- rgb 255,182,193 - Lightpink - used for background to the header and as backround for the galleries so that the images there can be easily seen
+- rgb 255,228,196 -Bisque - used for the logo and as background to the text having the needed contrast for accessibility.
 .
 
 
@@ -26,13 +26,13 @@ I used [coolors.co](https://coolors.co/palette/ffb6c1-ffe4c4-8b4513-e0ffff-fffff
 
 ### Typography
 
-I used 2 font-families for my project. One clean and redable for the whole site and one more graphic to create just the logo and titles (as an official logo does not exist yet.)
+I used 2 font-families for my project. One clean and readable for the whole site and one more graphic to create just the logo and titles (as an official logo does not exist yet.)
 
 - [Shadows into light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shadow+) was used for the primary headers and titles.
 
 - [Mako](https://fonts.google.com/specimen/Mako) was used for all other secondary text.
 
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer, as an indication to the user to click on an image so that they can see more pictures of the same cake, and a burger icon serving the responsiveness needs.
 
 ## User Stories
 
@@ -115,9 +115,9 @@ The Home page : This is the first page that the user is going to meet. It welcom
 The About page : This page introduces the owner of the page so that the user gets information about the service-provider.
 The Contact page : This page provides the contact details of the owner so that the user can easily get in touch with her.
 The Gallery page : This page displays the work of the owner to show to user what kind of services they can expect. In here there are 3 categories from which the user can be directed to more specific areas of interest.
-The birthday cakes page
-The Speciallty cakes
-The Sweet treats page
+The birthday cakes page,
+The Speciallty cakes and
+The Sweet treats page.
 
 ### Existing Features
 
@@ -213,7 +213,7 @@ The live link can be found [here](https://efthymiakakoulidou.github.io/cakes-by-
 
 ### Local Deployment
 
-This project was cloned or forked in order to make a local copy on my system.
+This project was cloned or forked in order to make a local copy on my system and on Github.
 
 #### Cloning
 
@@ -227,6 +227,8 @@ There are no big differences between my local and the deployed version of the pr
 
 
 ## Credits
+
+I used the "Love running" walkthrough material throughout the project to help me construct it.
 
 I got help for troubleshooting my problems from :
 https://stackoverflow.com/
@@ -248,13 +250,9 @@ https://www.google.com in general for every little question that I need a quick 
 
 ### Content
 
-I got all the content of the site from the owners instagram : https://www.instagram.com/cakebykg/
-
-### Media
-
+I got all the content of the site from the owners instagram and she was more than happy to get a site for her work : https://www.instagram.com/cakebykg/
 
 ### Acknowledgements
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
-- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and valuable feedback they provided.
