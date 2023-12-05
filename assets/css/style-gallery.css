@@ -290,7 +290,8 @@ footer {
 
 }
 
-/*Media queries tablets and larger (768px and larger)*/
+
+/*Media queries tablets and larger (1024px and larger)*/
 
 @media screen and (min-width:1024px) {
 
