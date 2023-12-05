@@ -66,14 +66,16 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Manual Testing
 
-The owner of the site tested it on her iPhone 8 and provided screenshots:
+The owner of the site tested it on her iPhone 8 and provided screenshots and I tested it on a Samsung tablet.
 
-![screenshot](documentation/kg-home.JPG)
-![screenshot](documentation/kg-about.JPG)
-![screenshot](documentation/kg-contact.JPG)
-![screenshot](documentation/kg-birthday-cakes.JPG)
-![screenshot](documentation/kg-speciallty-cakes.JPG)
-![screenshot](documentation/kg-sweet-treats.JPG)
+| Page | iPhone | Samsung tablet | Notes |
+| --- | --- | --- | --- |
+| Home | ![screenshot](documentation/kg-home.JPG) | ![screenshot](documentation/efi-home) | works as expected |
+| About | ![screenshot](documentation/kg-about.JPG) | ![screenshot](documentation/efi-about) | works as expected |
+| Contact | ![screenshot](documentation/kg-contact.JPG) | ![screenshot](documentation/efi-contact) | works as expected |
+| Birthday Cakes | ![screenshot](documentation/kg-birthday-cakes.JPG) | ![screenshot](documentation/efi-birthday-cakes) | works as expected |
+| Speciallty Cakes | ![screenshot](documentation/kg-speciallty-cakes.JPG) | ![screenshot](documentation/efi-speciallty-cakes) | works as expected |
+| Sweet Treats | ![screenshot](documentation/kg-sweet-treats.JPG) | ![screenshot](documentation/efi-sweet-treats) | works as expected |
 
 ## User Story Testing
 
