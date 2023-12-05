@@ -24,6 +24,10 @@ I used [coolors.co](https://coolors.co/palette/ffb6c1-ffe4c4-8b4513-e0ffff-fffff
 
 ![screenshot](documentation/pallette.png)
 
+### Accessibility
+
+This site is accessible in the terms that it uses enough contrast between the text and its background, it is using semantics, alt attributes on all images and aria-label attributes where there is no text to define the section.
+
 ### Typography
 
 I used 2 font-families for my project. One clean and readable for the whole site and one more graphic to create just the logo and titles (as an official logo does not exist yet.)
@@ -243,7 +247,6 @@ https://fonts.google.com/ for the fonts
 
 I used :
 https://www.google.com in general for every little question that I need a quick answer for.
-
 
 
 ### Content
