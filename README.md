@@ -166,7 +166,7 @@ The Sweet treats page
 
     - This feature is used to show the location of the owner on the map since an address on its own may not provide the same amount of information to all the users.
 
-![screenshot](documentation/feature08.JPG)
+![screenshot](documentation/feature07.JPG)
 
 - The birthday cakes/speciallty cakes/sweet treats galleries
 
@@ -213,7 +213,7 @@ The live link can be found [here](https://efthymiakakoulidou.github.io/cakes-by-
 
 ### Local Deployment
 
-This project can be cloned or forked in order to make a local copy on your own system.
+This project was cloned or forked in order to make a local copy on my system.
 
 #### Cloning
 

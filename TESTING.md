@@ -64,25 +64,20 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Sweet Treats | ![screenshot](documentation/lighthouse-sweet-treats-mobile.JPG) | ![screenshot](documentation/lighthouse-sweet-treats-desktop.JPG) | Slow response time due to large images |
 
 
-
-
-| x | x | x | repeat for any other tested pages/sizes |
-
 ## User Story Testing
 
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.JPG) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.JPG) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.JPG) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.JPG) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.JPG) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.JPG) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.JPG) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.JPG) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.JPG) |
-| repeat for all remaining user stories | x |
+| As a new site user, I would like to use the logo, so that I can return easily to the home page. | ![screenshot](documentation/feature01.JPG) |
+| As a new site user, I would like to use the logo even on my mobile, so that I can return to the home page. | ![screenshot](documentation/feature02.JPG) |
+| As a new site user, I would like to go to the pictures part of the site, so that I can quickly and easily look at what it is offered. | ![screenshot](documentation/feature03.JPG) |
+| As a new user, I would like to have a navigation menu , so that I can see what information the site provides. | ![screenshot](documentation/feature04.JPG) |
+| As a new site user, I would like to watch the video, so that I can get an idea on how the cakes are made. | ![screenshot](documentation/feature05.JPG) |
+| As a new and returning site user, I would like to directly oreder my cake from the site, so that I can do it wasily and quickly. | ![screenshot](documentation/feature06.JPG) |
+| As a new user, I would like to see the location on the map, so that I can have information on how easy the delivery will be. | ![screenshot](documentation/feature07.JPG) |
+| As a new and returning user, I would like to look pictures of cakes, so that I can get information of the service provided. | ![screenshot](documentation/feature08.JPG) |
+| As a new and returning user I would like to look at them closely, so that I can make up my mind on what it is I want to order. | ![screenshot](documentation/feature09.JPG) |
 
 ## Bugs
 
