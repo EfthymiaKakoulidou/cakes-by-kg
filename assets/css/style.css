@@ -63,7 +63,7 @@ h1 {
 /*Header*/
 
 header {
-    background-color: rgba(255, 182, 193);
+    background-color: rgba(255, 228, 196);
     padding: 0 .7rem;
     position: fixed;
     width: 100%;
@@ -101,7 +101,7 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 25%;
-    background-color: rgba(255, 228, 196, .5);
+    background-color: rgba(255, 182, 193, .5);
     z-index: 5;
     position: absolute;
     box-shadow: 1px 1px 3px 5px rgba(68, 33, 22, .5);
@@ -110,7 +110,7 @@ header {
 #lbutton1 {
     display: none;
     position: absolute;
-    background-color: rgba(255, 228, 196, .5);
+    background-color: rgba(255, 182, 193, .5);
     width: 50px;
     height: 50px;
     border-radius: 25%;
@@ -157,7 +157,7 @@ header {
 
 #navigation-menu {
     display: none;
-    background-color: lightpink;
+    background-color: rgba(255, 228, 196);
     font-size: 25px;
     width: 45vw;
     border-radius: 5%;
@@ -513,7 +513,7 @@ footer {
     }
 
     #cake-kinds {
-        background-color: lightpink;
+        background-color: rgba(255, 228, 196);
         position: absolute;
         padding: 10px;
         display: none;
