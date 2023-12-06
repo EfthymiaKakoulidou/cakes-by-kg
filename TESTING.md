@@ -59,6 +59,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/lighthouse-home-mobile.JPG) | ![screenshot](documentation/lighthouse-home-desktop.JPG) | Some minor warnings |
 | About | ![screenshot](documentation/lighthouse-about-mobile.JPG) | ![screenshot](documentation/lighthouse-about-desktop.JPG) | Some minor warnings |
+| Contact | ![screenshot](documentation/lighthouse-contact-mobile.JPG) | ![screenshot](documentation/lighthouse-contact-desktop.JPG) | Some minor warnings |
 | Birthday Cakes | ![screenshot](documentation/lighthouse-birthday-cakes-mobile.JPG) | ![screenshot](documentation/lighthouse-birthday-cakes-desktop.JPG) | Slow response time due to large images |
 | Speciallty Cakes | ![screenshot](documentation/lighthouse-speciallty-cakes-mobile.JPG) | ![screenshot](documentation/lighthouse-speciallty-cakes-desktop.JPG) | Slow response time due to large images |
 | Sweet Treats | ![screenshot](documentation/lighthouse-sweet-treats-mobile.JPG) | ![screenshot](documentation/lighthouse-sweet-treats-desktop.JPG) | Slow response time due to large images |
