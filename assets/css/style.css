@@ -104,7 +104,7 @@ header {
     background-color: rgba(255, 182, 193, .5);
     z-index: 5;
     position: absolute;
-    box-shadow: 1px 1px 3px 5px rgba(68, 33, 22, .5);
+    box-shadow: 0px 0px 3px 5px rgba(68, 33, 22, .5);
 }
 
 #lbutton1 {
@@ -116,7 +116,7 @@ header {
     border-radius: 25%;
     transform: rotate(45deg);
     z-index: 1;
-    box-shadow: 1px 1px 3px 5px rgba(68, 33, 22, .5);
+    box-shadow: 0px 0px 3px 5px rgba(68, 33, 22, .5);
 }
 
 /*Logo in the middle*/
@@ -232,7 +232,7 @@ main {
     width: 200px;
     height: 200px;
     z-index: 10;
-    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
+    box-shadow: 0px 0px 5px 7px rgb(68, 33, 22, .5);
 }
 
 #bcakes1 {
@@ -243,7 +243,7 @@ main {
     height: 200px;
     z-index: 2;
     transform: rotate(45deg);
-    box-shadow: 5px 5px 5px 7px rgba(68, 33, 22, .5);
+    box-shadow: 0px 0px 5px 7px rgba(68, 33, 22, .5);
 }
 
 
@@ -259,7 +259,7 @@ main {
     height: 150px;
     background-color: rgba(255, 228, 196, .8);
     border-radius: 25%;
-    box-shadow: 5px 5px 5px 7px rgba(68, 33, 22, .5);
+    box-shadow: 0px 0px 5px 7px rgba(68, 33, 22, .5);
 }
 
 #scakes1 {
@@ -270,7 +270,7 @@ main {
     background-color: rgba(255, 228, 196, .8);
     border-radius: 25%;
     transform: rotate(45deg);
-    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
+    box-shadow: 0px 0px 5px 7px rgb(68, 33, 22, .5);
 }
 
 /*Home page Sweet Treats */
@@ -285,7 +285,7 @@ main {
     height: 150px;
     background-color: rgba(255, 228, 196, .8);
     border-radius: 25%;
-    box-shadow: 5px 5px 5px 7px rgba(68, 33, 22, .5);
+    box-shadow: 0px 0px 5px 7px rgba(68, 33, 22, .5);
 }
 
 #sweet1 {
@@ -295,7 +295,7 @@ main {
     background-color: rgba(255, 228, 196, .8);
     border-radius: 25%;
     transform: rotate(45deg);
-    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
+    box-shadow: 0px 0px 5px 7px rgb(68, 33, 22, .5);
 }
 
 
@@ -312,11 +312,9 @@ main {
     background-color: bisque;
     border-radius: 15px;
     padding: 20px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin:20px;
     width: 300px;
-    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
+    box-shadow: 0px 0px 7px 7px rgb(68, 33, 22, .5);
 }
 
 #kg-pic-caption {
@@ -333,12 +331,11 @@ main {
     background-color: bisque;
     border-radius: 15px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin: 20px;
     margin-bottom: 20px;
     width: 300px;
-    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
-    margin-left: 20px;
-    margin-right: 20px;
+    box-shadow: 0px 0px 7px 7px rgb(68, 33, 22, .5);
+
 }
 
 #phone,
@@ -355,7 +352,8 @@ main {
     background-color: bisque;
     border-radius: 15px;
     width: 300px;
-    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
+    box-shadow: 0px 0px 7px 7px rgb(68, 33, 22, .5);
+    margin: 20px;
 }
 
 #form input {
@@ -417,7 +415,7 @@ main {
     border-radius: 15px;
     margin: 20px;
     padding: 10px;
-    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
+    box-shadow: 0px 0px 7px 7px rgb(68, 33, 22, .5);
 }
 
 #cv-text {
@@ -429,7 +427,7 @@ main {
     border-radius: 15px;
     margin: 20px;
     padding: 10px;
-    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
+    box-shadow: 0px 0px 7px 7px rgb(68, 33, 22, .5);
 }
 
 /*Footer*/
