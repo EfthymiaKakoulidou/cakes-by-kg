@@ -82,7 +82,7 @@ header {
     align-items: center;
     width: 50px;
     height: 50px;
-
+    padding-bottom: 20px;
 }
 
 #initials {
@@ -90,7 +90,7 @@ header {
     font-family: "Oooh Baby";
     font-size: larger;
     font-weight: bold;
-    color: rgb(116, 57, 16);
+    color: rgb(68, 33, 22);
     position: absolute;
     z-index: 10;
     display: none;
@@ -101,20 +101,22 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 25%;
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, .5);
     z-index: 5;
     position: absolute;
+    box-shadow: 1px 1px 3px 5px rgba(68, 33, 22, .5);
 }
 
 #lbutton1 {
     display: none;
     position: absolute;
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, .5);
     width: 50px;
     height: 50px;
     border-radius: 25%;
     transform: rotate(45deg);
     z-index: 1;
+    box-shadow: 1px 1px 3px 5px rgba(68, 33, 22, .5);
 }
 
 /*Logo in the middle*/
@@ -230,6 +232,7 @@ main {
     width: 200px;
     height: 200px;
     z-index: 10;
+    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
 }
 
 #bcakes1 {
@@ -240,7 +243,7 @@ main {
     height: 200px;
     z-index: 2;
     transform: rotate(45deg);
-    box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
+    box-shadow: 5px 5px 5px 7px rgba(68, 33, 22, .5);
 }
 
 
@@ -256,6 +259,7 @@ main {
     height: 150px;
     background-color: rgba(255, 228, 196, .8);
     border-radius: 25%;
+    box-shadow: 5px 5px 5px 7px rgba(68, 33, 22, .5);
 }
 
 #scakes1 {
@@ -281,6 +285,7 @@ main {
     height: 150px;
     background-color: rgba(255, 228, 196, .8);
     border-radius: 25%;
+    box-shadow: 5px 5px 5px 7px rgba(68, 33, 22, .5);
 }
 
 #sweet1 {
