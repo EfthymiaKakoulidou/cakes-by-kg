@@ -98,6 +98,13 @@ The owner of the site tested it on her iPhone 8 and provided screenshots.
 
 I had this bug and to fix it I took away this line of code.
 
+During peer review:
+I was told to check the contrast which I did and fixed that by changing back to not change colour when hover.
+Also my elements were a bit hidden under the navbar and I fixed that by adjusting their style attributes.
+Another comment was that the navbar was squished when viewed on tablets and I fixed that by using the hamburger icon there too.
+
+When I was testing with Lighthouse I got a warning that my aria-label on the logo-button should have the same text with text on the logo-button so I fixed that by puting the same text.
+
 
 ## Unfixed Bugs
 
