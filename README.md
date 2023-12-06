@@ -58,7 +58,7 @@ As a user of this site I would like to be able to get inspired and order my cake
 
 To follow best practice, wireframes were developed for mobile, and desktop sizes. The tablet sizes follow the mobile sizes layout.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
-Although the final project might differ from the initial wireframes I kept the main concept intact and just added some features along the way where I thought they might be needed.
+Although the final project might differ from the initial wireframes I kept the main concept intact and just added some features along the way where I thought they might be needed. A second video on the about page is the biggest change and I did that to be consistent to the layout of having 3 elements on each page.
 
 
 ### Mobile Wireframes
