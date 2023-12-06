@@ -101,5 +101,5 @@ I had this bug and to fix it I took away this line of code.
 
 ## Unfixed Bugs
 
-There are no know unfixed bugs.
+There are no known unfixed bugs.
  
