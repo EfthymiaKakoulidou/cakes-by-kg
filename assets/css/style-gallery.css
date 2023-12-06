@@ -47,6 +47,18 @@ ul {
     list-style-type: none;
 }
 
+h1 {font-size: 32px;
+    color: rgb(68, 33, 22);
+    text-align: center;
+    font-family: "Oooh Baby";
+}
+
+h2 {align-items: center;
+    text-align: center;
+    font-family: "Oooh Baby";
+}
+
+
 
 /*Header*/
 header {
@@ -143,7 +155,7 @@ header {
 
 #navigation-menu {
     display: none;
-    background-color: lightpink;
+    background-color: rgba(255, 228, 196);
     font-size: 25px;
     width: 45vw;
     border-radius: 5%;
@@ -168,18 +180,6 @@ header {
 #nav-toggle2:checked~#cake-kinds {
     display: block;
 }
-
-h1 {font-size: 32px;
-    color: rgb(68, 33, 22);
-    text-align: center;
-    font-family: "Oooh Baby";
-}
-
-h2 {align-items: center;
-    text-align: center;
-    font-family: "Oooh Baby";
-}
-
 
 /*Main for Gallery*/
 
