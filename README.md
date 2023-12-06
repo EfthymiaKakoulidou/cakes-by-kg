@@ -9,16 +9,15 @@ Cakes by KG is a website aiming to provide information about the services Kateri
 
 ## UX
 
-My aim was to create an accessible and easy-to-navigate website. I wanted it to be welcoming the user to enter a fun and sweet world.
+My aim was to create an accessible and easy-to-navigate website. I wanted it to invite the user to enter a fun and sweet world.
 
 ### Colour Scheme
 
-The choice of colours was based on we typically associate to sweet flavors. I chose pink for sugar, beige for cream, brown for chocolate and white. Because of the background image being so colourful I chose not use more colours to tone it down.
+The choice of colours was based on we typically associate to sweet flavors. I chose pink for sugar, beige for cream, brown for chocolate and white. Because of the background image being so colourful I chose not use any more colours to tone it down and make it more clear.
 
 - rgb 68,33,22 - Dark brown -used for all text.
-- rgb 255,182,193 - Lightpink - used for background to the header and as backround for the galleries so that the images there can be easily seen
+- rgb 255,182,193 - Lightpink - used for background to the header and as backround for the galleries so that the images can be easily seen.
 - rgb 255,228,196 -Bisque - used for the logo and as background to the text having the needed contrast for accessibility.
-.
 
 
 I used [coolors.co](https://coolors.co/palette/ffb6c1-ffe4c4-8b4513-e0ffff-ffffff) to generate my colour palette.
@@ -31,7 +30,7 @@ This site is accessible in the terms that it uses enough contrast between the te
 
 ### Typography
 
-I used 2 font-families for my project. One clean and readable for the whole site and one more graphic to create just the logo and titles (as an official logo does not exist yet.)
+I used 2 font-families for my project. One clean and readable for the whole site and one more graphic to create just the logo and titles.
 
 - [Shadows into light](https://fonts.google.com/specimen/Shadows+Into+Light?query=shadow+) was used for the primary headers and titles.
 
