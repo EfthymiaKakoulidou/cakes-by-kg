@@ -337,6 +337,8 @@ main {
     margin-bottom: 20px;
     width: 300px;
     box-shadow: 5px 5px 5px 7px rgb(68, 33, 22, .5);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #phone,
@@ -593,7 +595,7 @@ footer {
 
     #details {
         height: 400px;
-        padding: 10px;
+        padding: 20px;
         margin-top: 0px;
         margin-bottom: 0px;
         margin-right: 40px;
