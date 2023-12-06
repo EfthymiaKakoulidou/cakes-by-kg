@@ -70,12 +70,12 @@ The owner of the site tested it on her iPhone 8 and provided screenshots.
 
 | Page | iPhone | Samsung tablet | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/kg-home.JPG) | ![screenshot](documentation/efi-home) | works as expected |
-| About | ![screenshot](documentation/kg-about.JPG) | ![screenshot](documentation/efi-about) | works as expected |
-| Contact | ![screenshot](documentation/kg-contact.JPG) | ![screenshot](documentation/efi-contact) | works as expected |
-| Birthday Cakes | ![screenshot](documentation/kg-birthday-cakes.JPG) | ![screenshot](documentation/efi-birthday-cakes) | works as expected |
-| Speciallty Cakes | ![screenshot](documentation/kg-speciallty-cakes.JPG) | ![screenshot](documentation/efi-speciallty-cakes) | works as expected |
-| Sweet Treats | ![screenshot](documentation/kg-sweet-treats.JPG) | ![screenshot](documentation/efi-sweet-treats) | works as expected |
+| Home | ![screenshot](documentation/kg-home.JPG) | works as expected |
+| About | ![screenshot](documentation/kg-about.JPG) | works as expected |
+| Contact | ![screenshot](documentation/kg-contact.JPG) |
+| Birthday Cakes | ![screenshot](documentation/kg-birthday-cakes.JPG) | works as expected |
+| Speciallty Cakes | ![screenshot](documentation/kg-speciallty-cakes.JPG) | works as expected |
+| Sweet Treats | ![screenshot](documentation/kg-sweet-treats.JPG) | works as expected |
 
 ## User Story Testing
 
