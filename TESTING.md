@@ -11,12 +11,12 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Findex.html) | ![screenshot](documentation/html-validation-home.JPG) | No warning |
-| Birthday cakes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fbirthday-cakes.html) | ![screenshot](documentation/html-validation-birthday-cakes.JPG) | no warnings|
-| Speciallty cakes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fspeciallty-cakes.html) | ![screenshot](documentation/html-validation-birthday-cakes.JPG) | no warnings|
-| Sweet Treats | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fsweet-treats.html) | ![screenshot](documentation/html-validation-birthday-cakes.JPG) | no warnings|
-| About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fabout.html) | ![screenshot](documentation/html-validation-birthday-cakes.JPG) | no warnings|
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.JPG) | no warnings |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Findex.html) | ![screenshot](documentation/html-validation-home.jpg) | No warning |
+| Birthday cakes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fbirthday-cakes.html) | ![screenshot](documentation/html-validation-birthday-cakes.jpg) | no warnings|
+| Speciallty cakes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fspeciallty-cakes.html) | ![screenshot](documentation/html-validation-birthday-cakes.jpg) | no warnings|
+| Sweet Treats | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fsweet-treats.html) | ![screenshot](documentation/html-validation-birthday-cakes.jpg) | no warnings|
+| About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fabout.html) | ![screenshot](documentation/html-validation-birthday-cakes.jpg) | no warnings|
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.jpg) | no warnings |
 
 ### CSS
 
@@ -24,8 +24,8 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg) | ![screenshot](documentation/css-validation-style.JPG) | Pass: No Errors |
-| style-gallery.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg) | ![screenshot](documentation/css-validation-style.JPG) | Pass: No Errors |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg) | ![screenshot](documentation/css-validation-style.jpg) | Pass: No Errors |
+| style-gallery.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg) | ![screenshot](documentation/css-validation-style.jpg) | Pass: No Errors |
 
 
 ## Browser Compatibility
@@ -34,9 +34,9 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Home | About | Contact | Birthday Cakes | Speciallty Cakes | Sweet Treats |
 | --- | --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-chrome-home.JPG) | ![screenshot](documentation/browser-chrome-about.JPG) | ![screenshot](documentation/browser-chrome-contact.JPG) | ![screenshot](documentation/browser-chrome-birthday-cakes.JPG)| ![screenshot](documentation/browser-chrome-speciallty-cakes.JPG) | ![screenshot](documentation/browser-chrome-sweet-treats.JPG) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-firefox-home.JPG) | ![screenshot](documentation/browser-firefox-about.JPG) | ![screenshot](documentation/browser-firefox-contact.JPG) | ![screenshot](documentation/browser-firefox-birthday-cakes.JPG) | ![screenshot](documentation/browser-firefox-speciallty-cakes.JPG) | ![screenshot](documentation/browser-firefox-sweet-treats.JPG) | Works as expected |
-| Edge | ![screenshot](documentation/browser-edge-home.JPG) | ![screenshot](documentation/browser-edge-about.JPG) | ![screenshot](documentation/browser-edge-contact.JPG) | ![screenshot](documentation/browser-edge-birthday-cakes.JPG) | ![screenshot](documentation/browser-edge-speciallty-cakes.JPG) | ![screenshot](documentation/browser-edge-sweet-treats.JPG) | Works as expected |
+| Chrome | ![screenshot](documentation/browser-chrome-home.jpg) | ![screenshot](documentation/browser-chrome-about.jpg) | ![screenshot](documentation/browser-chrome-contact.jpg) | ![screenshot](documentation/browser-chrome-birthday-cakes.jpg)| ![screenshot](documentation/browser-chrome-speciallty-cakes.jpg) | ![screenshot](documentation/browser-chrome-sweet-treats.jpg) | Works as expected |
+| Firefox | ![screenshot](documentation/browser-firefox-home.jpg) | ![screenshot](documentation/browser-firefox-about.jpg) | ![screenshot](documentation/browser-firefox-contact.jpg) | ![screenshot](documentation/browser-firefox-birthday-cakes.jpg) | ![screenshot](documentation/browser-firefox-speciallty-cakes.jpg) | ![screenshot](documentation/browser-firefox-sweet-treats.jpg) | Works as expected |
+| Edge | ![screenshot](documentation/browser-edge-home.jpg) | ![screenshot](documentation/browser-edge-about.jpg) | ![screenshot](documentation/browser-edge-contact.jpg) | ![screenshot](documentation/browser-edge-birthday-cakes.jpg) | ![screenshot](documentation/browser-edge-speciallty-cakes.jpg) | ![screenshot](documentation/browser-edge-sweet-treats.jpg) | Works as expected |
 
 
 ## Responsiveness
@@ -45,9 +45,9 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Home | About | Contact | Birthday Cakes | Speciallty Cakes | Sweet Treats |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.JPG) | ![screenshot](documentation/responsive-mobile-about.JPG) | ![screenshot](documentation/responsive-mobile-contact.JPG) | ![screenshot](documentation/responsive-mobile-birthday-cakes.JPG) | ![screenshot](documentation/responsive-mobile-speciallty-cakes.JPG) | ![screenshot](documentation/responsive-mobile-sweet-treats.JPG) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.JPG) | ![screenshot](documentation/responsive-tablet-about.JPG) | ![screenshot](documentation/responsive-tablet-contact.JPG) | ![screenshot](documentation/responsive-tablet-birthday-cakes.JPG) | ![screenshot](documentation/responsive-tablet-speciallty-cakes.JPG) | ![screenshot](documentation/responsive-tablet-sweet-treats.JPG) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop-home.JPG) | ![screenshot](documentation/responsive-desktop-about.JPG) | ![screenshot](documentation/responsive-desktop-contact.JPG) | ![screenshot](documentation/responsive-desktop-birthday-cakes.JPG) | ![screenshot](documentation/responsive-desktop-speciallty-cakes.JPG) | ![screenshot](documentation/responsive-desktop-sweet-treats.JPG) | Works as expected |
+| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.jpg) | ![screenshot](documentation/responsive-mobile-about.jpg) | ![screenshot](documentation/responsive-mobile-contact.jpg) | ![screenshot](documentation/responsive-mobile-birthday-cakes.jpg) | ![screenshot](documentation/responsive-mobile-speciallty-cakes.jpg) | ![screenshot](documentation/responsive-mobile-sweet-treats.jpg) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.jpg) | ![screenshot](documentation/responsive-tablet-about.jpg) | ![screenshot](documentation/responsive-tablet-contact.jpg) | ![screenshot](documentation/responsive-tablet-birthday-cakes.jpg) | ![screenshot](documentation/responsive-tablet-speciallty-cakes.jpg) | ![screenshot](documentation/responsive-tablet-sweet-treats.jpg) | Works as expected |
+| Desktop | ![screenshot](documentation/responsive-desktop-home.jpg) | ![screenshot](documentation/responsive-desktop-about.jpg) | ![screenshot](documentation/responsive-desktop-contact.jpg) | ![screenshot](documentation/responsive-desktop-birthday-cakes.jpg) | ![screenshot](documentation/responsive-desktop-speciallty-cakes.jpg) | ![screenshot](documentation/responsive-desktop-sweet-treats.jpg) | Works as expected |
 
 
 ## Lighthouse Audit
@@ -57,12 +57,12 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse-home-mobile.JPG) | ![screenshot](documentation/lighthouse-home-desktop.JPG) | Some minor warnings |
-| About | ![screenshot](documentation/lighthouse-about-mobile.JPG) | ![screenshot](documentation/lighthouse-about-desktop.JPG) | Some minor warnings |
-| Contact | ![screenshot](documentation/lighthouse-contact-mobile.JPG) | ![screenshot](documentation/lighthouse-contact-desktop.JPG) | Some minor warnings |
-| Birthday Cakes | ![screenshot](documentation/lighthouse-birthday-cakes-mobile.JPG) | ![screenshot](documentation/lighthouse-birthday-cakes-desktop.JPG) | Slow response time due to large images |
-| Speciallty Cakes | ![screenshot](documentation/lighthouse-speciallty-cakes-mobile.JPG) | ![screenshot](documentation/lighthouse-speciallty-cakes-desktop.JPG) | Slow response time due to large images |
-| Sweet Treats | ![screenshot](documentation/lighthouse-sweet-treats-mobile.JPG) | ![screenshot](documentation/lighthouse-sweet-treats-desktop.JPG) | Slow response time due to large images |
+| Home | ![screenshot](documentation/lighthouse-home-mobile.jpg) | ![screenshot](documentation/lighthouse-home-desktop.jpg) | Some minor warnings |
+| About | ![screenshot](documentation/lighthouse-about-mobile.jpg) | ![screenshot](documentation/lighthouse-about-desktop.jpg) | Some minor warnings |
+| Contact | ![screenshot](documentation/lighthouse-contact-mobile.jpg) | ![screenshot](documentation/lighthouse-contact-desktop.jpg) | Some minor warnings |
+| Birthday Cakes | ![screenshot](documentation/lighthouse-birthday-cakes-mobile.jpg) | ![screenshot](documentation/lighthouse-birthday-cakes-desktop.jpg) | Slow response time due to large images |
+| Speciallty Cakes | ![screenshot](documentation/lighthouse-speciallty-cakes-mobile.jpg) | ![screenshot](documentation/lighthouse-speciallty-cakes-desktop.jpg) | Slow response time due to large images |
+| Sweet Treats | ![screenshot](documentation/lighthouse-sweet-treats-mobile.jpg) | ![screenshot](documentation/lighthouse-sweet-treats-desktop.jpg) | Slow response time due to large images |
 
 
 ## Manual Testing
@@ -71,31 +71,31 @@ The owner of the site tested it on her iPhone 8 and provided screenshots.
 
 | Page | iPhone | Samsung tablet | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/kg-home.JPG) | works as expected |
-| About | ![screenshot](documentation/kg-about.JPG) | works as expected |
-| Contact | ![screenshot](documentation/kg-contact.JPG) |
-| Birthday Cakes | ![screenshot](documentation/kg-birthday-cakes.JPG) | works as expected |
-| Speciallty Cakes | ![screenshot](documentation/kg-speciallty-cakes.JPG) | works as expected |
-| Sweet Treats | ![screenshot](documentation/kg-sweet-treats.JPG) | works as expected |
+| Home | ![screenshot](documentation/kg-home.jpg) | works as expected |
+| About | ![screenshot](documentation/kg-about.jpg) | works as expected |
+| Contact | ![screenshot](documentation/kg-contact.jpg) |
+| Birthday Cakes | ![screenshot](documentation/kg-birthday-cakes.jpg) | works as expected |
+| Speciallty Cakes | ![screenshot](documentation/kg-speciallty-cakes.jpg) | works as expected |
+| Sweet Treats | ![screenshot](documentation/kg-sweet-treats.jpg) | works as expected |
 
 ## User Story Testing
 
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to use the logo, so that I can return easily to the home page. | ![screenshot](documentation/feature01.JPG) |
-| As a new site user, I would like to use the logo even on my mobile, so that I can return to the home page. | ![screenshot](documentation/feature02.JPG) |
-| As a new site user, I would like to go to the pictures part of the site, so that I can quickly and easily look at what it is offered. | ![screenshot](documentation/feature03.JPG) |
-| As a new user, I would like to have a navigation menu , so that I can see what information the site provides. | ![screenshot](documentation/feature04.JPG) |
-| As a new site user, I would like to watch the video, so that I can get an idea on how the cakes are made. | ![screenshot](documentation/feature05.JPG) |
-| As a new and returning site user, I would like to directly oreder my cake from the site, so that I can do it wasily and quickly. | ![screenshot](documentation/feature06.JPG) |
-| As a new user, I would like to see the location on the map, so that I can have information on how easy the delivery will be. | ![screenshot](documentation/feature07.JPG) |
-| As a new and returning user, I would like to look pictures of cakes, so that I can get information of the service provided. | ![screenshot](documentation/feature08.JPG) |
-| As a new and returning user I would like to look at them closely, so that I can make up my mind on what it is I want to order. | ![screenshot](documentation/feature09.JPG) |
+| As a new site user, I would like to use the logo, so that I can return easily to the home page. | ![screenshot](documentation/feature01.jpg) |
+| As a new site user, I would like to use the logo even on my mobile, so that I can return to the home page. | ![screenshot](documentation/feature02.jpg) |
+| As a new site user, I would like to go to the pictures part of the site, so that I can quickly and easily look at what it is offered. | ![screenshot](documentation/feature03.jpg) |
+| As a new user, I would like to have a navigation menu , so that I can see what information the site provides. | ![screenshot](documentation/feature04.jpg) |
+| As a new site user, I would like to watch the video, so that I can get an idea on how the cakes are made. | ![screenshot](documentation/feature05.jpg) |
+| As a new and returning site user, I would like to directly oreder my cake from the site, so that I can do it wasily and quickly. | ![screenshot](documentation/feature06.jpg) |
+| As a new user, I would like to see the location on the map, so that I can have information on how easy the delivery will be. | ![screenshot](documentation/feature07.jpg) |
+| As a new and returning user, I would like to look pictures of cakes, so that I can get information of the service provided. | ![screenshot](documentation/feature08.jpg) |
+| As a new and returning user I would like to look at them closely, so that I can make up my mind on what it is I want to order. | ![screenshot](documentation/feature09.jpg) |
 
 ## Bugs
 
-![screenshot](documentation/bug.JPG)
+![screenshot](documentation/bug.jpg)
 
 I had this bug and to fix it I took away this line of code.
 

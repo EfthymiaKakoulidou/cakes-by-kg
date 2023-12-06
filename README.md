@@ -1,10 +1,11 @@
 # [CAKES BY KG](https://efthymiakakoulidou.github.io/cakes-by-kg)
 
+![GitHub repo size](https://img.shields.io/github/repo-size/EfthymiaKakoulidou/cakes-by-kg?color=orange)
 
 Cakes by KG is a website aiming to provide information about the services Katerina Glykou offers which are designing and baking cakes. Apart from the information, the project hopes to inspire the user in the process of chosing a cake. The target audience is people in the Stockholm region who need to order cakes. With the use of picture and contact information the target audience will be able to be inspired choose a cake and order it.
 
 
-![screenshot](documentation/responsive-site.JPG)
+![screenshot](documentation/responsive-site.jpg)
 
 ## UX
 
@@ -127,56 +128,56 @@ The Sweet treats page.
 
     - The logo button is the expression of the whole graphic language of the site in the header. It has the owners initials on it and directs the user to the about page to learn more about the owner.
 
-![screenshot](documentation/feature01.JPG)
+![screenshot](documentation/feature01.jpg)
 
 - The welcome link
 
     - This feature takes up the center and most important part of the page. It directs the user to the Gallery page which is the page of interest.
 
-![screenshot](documentation/feature02.JPG)
+![screenshot](documentation/feature02.jpg)
 
 - The links to the gallery
 
     - Since the galleries are the most interesting part of the site I thought it would be nice to have direct links to them that are visible and clear on the home page.
 
-![screenshot](documentation/feature03.JPG)
+![screenshot](documentation/feature03.jpg)
 
 - The navigation bar with the dropdown menu
 
     - This feature is essential to the user. It is used to navigate the user to the diffrent pages of the site directly from the home page.
 
-![screenshot](documentation/feature04.JPG)
+![screenshot](documentation/feature04.jpg)
 
-![screenshot](documentation/feature041.JPG)
+![screenshot](documentation/feature041.jpg)
 
-![screenshot](documentation/feature042.JPG)
+![screenshot](documentation/feature042.jpg)
 
 
 - The video feature
 
     - This feature is used to keep the interest of the user on the about page.
 
-![screenshot](documentation/feature05.JPG)
+![screenshot](documentation/feature05.jpg)
 
 - The contact form
 
     - This feature is used to give to the user the opportunity to contact the owner directly from the site without having to leave the page.
 
-![screenshot](documentation/feature06.JPG)
+![screenshot](documentation/feature06.jpg)
 
 - The google maps i frame
 
     - This feature is used to show the location of the owner on the map since an address on its own may not provide the same amount of information to all the users.
 
-![screenshot](documentation/feature07.JPG)
+![screenshot](documentation/feature07.jpg)
 
 - The birthday cakes/speciallty cakes/sweet treats galleries
 
     - There are all of the images here. The user can click on the preview image of each cake and see it enlarged so they can study the details. Also more pictures of the same cake -hidden behind the preview picture - are provided for more information.
 
-![screenshot](documentation/feature08.JPG)
+![screenshot](documentation/feature08.jpg)
 
-![screenshot](documentation/feature09.JPG)
+![screenshot](documentation/feature09.jpg)
 
 ### Future Features
 
