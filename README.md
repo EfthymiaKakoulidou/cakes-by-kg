@@ -217,12 +217,6 @@ The live link can be found [here](https://efthymiakakoulidou.github.io/cakes-by-
 
 This project was cloned or forked in order to make a local copy on my system and on Github.
 
-#### Cloning
-
-
-#### Forking
-
-
 ### Local VS Deployment
 
 There are no big differences between my local and the deployed version of the project.
