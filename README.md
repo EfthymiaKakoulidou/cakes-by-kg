@@ -117,10 +117,11 @@ The project consists of 7 different pages:
 The Home page : This is the first page that the user is going to meet. It welcomes the user and sets the tone for the experience he/she is going to have.
 The About page : This page introduces the owner of the page so that the user gets information about the service-provider.
 The Contact page : This page provides the contact details of the owner so that the user can easily get in touch with her.
-The Gallery page : This page displays the work of the owner to show to user what kind of services they can expect. In here there are 3 categories from which the user can be directed to more specific areas of interest.
+3 gallery pages : These pages display the work of the owner so as to show to user what kind of services they can expect. There are 3 categories from which the user can be directed to more specific areas of interest.
 The birthday cakes page,
 The Speciallty cakes and
 The Sweet treats page.
+The confirmation page which is not really a part of the project but it is where the user is redirected when he/she fills the form in the contact page.
 
 ### Existing Features
 
@@ -267,6 +268,8 @@ https://fonts.google.com/ for the fonts
 
 I used :
 https://www.google.com in general for every little question that I need a quick answer for.
+
+I got help from my mentor to create the redirect page.
 
 
 ### Content
