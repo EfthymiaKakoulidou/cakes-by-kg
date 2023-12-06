@@ -213,10 +213,6 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
 The live link can be found [here](https://efthymiakakoulidou.github.io/cakes-by-kg)
 
-### Local Deployment
-
-This project was cloned or forked in order to make a local copy on my system and on Github.
-
 ### Local VS Deployment
 
 There are no big differences between my local and the deployed version of the project.
@@ -251,3 +247,4 @@ I got all the content of the site from the owners instagram and she was more tha
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and valuable feedback they provided.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and some project issues.
