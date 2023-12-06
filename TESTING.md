@@ -17,6 +17,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Sweet Treats | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fsweet-treats.html) | ![screenshot](documentation/html-validation-birthday-cakes.jpg) | no warnings|
 | About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fabout.html) | ![screenshot](documentation/html-validation-birthday-cakes.jpg) | no warnings|
 | Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.jpg) | no warnings |
+| Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fefthymiakakoulidou.github.io%2Fcakes-by-kg%2Fconfirmation.html%3Fname%3Dywhstrh%26email%3Defthymiakakoulidou%2540gmail.com%26message%3Dshfthgv) | ![screenshot](documentation/html-validation-confirmation.jpg) | no warnings |
 
 ### CSS
 
