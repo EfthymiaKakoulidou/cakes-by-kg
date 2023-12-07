@@ -58,19 +58,19 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse-home-mobile.jpg) | ![screenshot](documentation/lighthouse-home-desktop.jpg) | Some minor warnings |
-| About | ![screenshot](documentation/lighthouse-about-mobile.jpg) | ![screenshot](documentation/lighthouse-about-desktop.jpg) | Some minor warnings |
-| Contact | ![screenshot](documentation/lighthouse-contact-mobile.jpg) | ![screenshot](documentation/lighthouse-contact-desktop.jpg) | Some minor warnings |
-| Birthday Cakes | ![screenshot](documentation/lighthouse-birthday-cakes-mobile.jpg) | ![screenshot](documentation/lighthouse-birthday-cakes-desktop.jpg) | Slow response time due to large images |
-| Speciallty Cakes | ![screenshot](documentation/lighthouse-speciallty-cakes-mobile.jpg) | ![screenshot](documentation/lighthouse-speciallty-cakes-desktop.jpg) | Slow response time due to large images |
-| Sweet Treats | ![screenshot](documentation/lighthouse-sweet-treats-mobile.jpg) | ![screenshot](documentation/lighthouse-sweet-treats-desktop.jpg) | Slow response time due to large images |
+| Home | ![screenshot](documentation/lighthouse-home-mobile.jpg) | ![screenshot](documentation/lighthouse-home-desktop.jpg) | No major issues |
+| About | ![screenshot](documentation/lighthouse-about-mobile.jpg) | ![screenshot](documentation/lighthouse-about-desktop.jpg) | No issues |
+| Contact | ![screenshot](documentation/lighthouse-contact-mobile.jpg) | ![screenshot](documentation/lighthouse-contact-desktop.jpg) | No major issues |
+| Birthday Cakes | ![screenshot](documentation/lighthouse-birthday-cakes-mobile.jpg) | ![screenshot](documentation/lighthouse-birthday-cakes-desktop.jpg) | No major issues |
+| Speciallty Cakes | ![screenshot](documentation/lighthouse-speciallty-cakes-mobile.jpg) | ![screenshot](documentation/lighthouse-speciallty-cakes-desktop.jpg) | No major issues |
+| Sweet Treats | ![screenshot](documentation/lighthouse-sweet-treats-mobile.jpg) | ![screenshot](documentation/lighthouse-sweet-treats-desktop.jpg) | No major issues |
 
 
 ## Manual Testing
 
 The owner of the site tested it on her iPhone 8 and provided screenshots.
 
-| Page | iPhone | Samsung tablet | Notes |
+| Page | iPhone | Notes |
 | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/kg-home.jpg) | works as expected |
 | About | ![screenshot](documentation/kg-about.jpg) | works as expected |
@@ -87,7 +87,7 @@ The owner of the site tested it on her iPhone 8 and provided screenshots.
 | As a new site user, I would like to use the logo, so that I can return easily to the home page. | ![screenshot](documentation/feature01.jpg) |
 | As a new site user, I would like to use the logo even on my mobile, so that I can return to the home page. | ![screenshot](documentation/feature02.jpg) |
 | As a new site user, I would like to go to the pictures part of the site, so that I can quickly and easily look at what it is offered. | ![screenshot](documentation/feature03.jpg) |
-| As a new user, I would like to have a navigation menu , so that I can see what information the site provides. | ![screenshot](documentation/feature04.jpg) |
+| As a new user, I would like to have a navigation menu , so that I can see what information the site provides and be directed to it. | ![screenshot](documentation/feature04.jpg) |
 | As a new site user, I would like to watch the video, so that I can get an idea on how the cakes are made. | ![screenshot](documentation/feature05.jpg) |
 | As a new and returning site user, I would like to directly oreder my cake from the site, so that I can do it wasily and quickly. | ![screenshot](documentation/feature06.jpg) |
 | As a new user, I would like to see the location on the map, so that I can have information on how easy the delivery will be. | ![screenshot](documentation/feature07.jpg) |

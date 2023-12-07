@@ -2,7 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/EfthymiaKakoulidou/cakes-by-kg?color=orange)
 
-Cakes by KG is a website aiming to provide information about the services Katerina Glykou offers which are designing and baking cakes. Apart from the information, the project hopes to inspire the user in the process of chosing a cake. The target audience is people in the Stockholm region who need to order cakes. With the use of picture and contact information the target audience will be able to be inspired choose a cake and order it.
+Cakes by KG is a website aiming to provide information about the services Katerina Glykou offers which are designing and baking cakes. Apart from the information, the project hopes to inspire the user in the process of choosing a cake. The target audience is people in the Stockholm region who need to order cakes. With the use of picture and contact information the target audience will be able to be inspired choose a cake and order it.
 
 
 ![screenshot](documentation/responsive-site.jpg)
@@ -56,9 +56,9 @@ As a user of this site I would like to be able to get inspired and order my cake
 
 ## Wireframes
 
-To follow best practice, wireframes were developed for mobile, and desktop sizes. The tablet sizes follow the mobile sizes layout.
+To follow best practice, wireframes were developed for mobile, and desktop sizes. 
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
-Although the final project might differ from the initial wireframes I kept the main concept intact and just added some features along the way where I thought they might be needed. A second video on the about page is the biggest change and I did that to be consistent to the layout of having 3 elements on each page.
+Although the final project might differ from the initial wireframes I kept the main concept intact and just added some features along the way where I thought they might be needed. A second video on the about page is the biggest change and I did that to be consistent to the layout of having 3 elements on each page except the gallery pages of course that have a lot more.
 
 
 ### Mobile Wireframes
@@ -77,9 +77,6 @@ Contact
 
 Birthday Cakes
   - ![screenshot](documentation/wireframes/mobile-birthday-cakes.png)
-
-Speciallty Cakes
-  - ![screenshot](documentation/wireframes/mobile-speciallty-cakes.png)
 
 
 </details>
@@ -113,26 +110,26 @@ Sweet Treats
 ## Features
 
 The project consists of 7 different pages:
-The Home page : This is the first page that the user is going to meet. It welcomes the user and sets the tone for the experience he/she is going to have.
-The About page : This page introduces the owner of the page so that the user gets information about the service-provider.
-The Contact page : This page provides the contact details of the owner so that the user can easily get in touch with her.
-3 gallery pages : These pages display the work of the owner so as to show to user what kind of services they can expect. There are 3 categories from which the user can be directed to more specific areas of interest.
-The birthday cakes page,
-The Speciallty cakes and
-The Sweet treats page.
-The confirmation page which is not really a part of the project but it is where the user is redirected when he/she fills the form in the contact page.
+ - The Home page : This is the first page that the user is going to meet. It welcomes the user and sets the tone for the experience he/she is going to have.
+ - The About page : This page introduces the owner of the page so that the user gets information about the service-provider.
+ - The Contact page : This page provides the contact details of the owner so that the user can easily get in touch with her.
+ - 3 gallery pages : These pages display the work of the owner so as to show to user what kind of services they can expect. There are 3 categories from which the user can be directed to more specific areas of interest.
+    - The birthday cakes page,
+    - The Speciallty cakes and
+    - The Sweet treats page.
+ - The confirmation page which is not really a part of the project but it is where the user is redirected when he/she fills the form in the contact page.
 
 ### Existing Features
 
 - The logo button :
 
-    - The logo button is the expression of the whole graphic language of the site in the header. It has the owners initials on it and directs the user to the about page to learn more about the owner.
+    - The logo button is the expression of the whole graphic language of the site in the header. It has the owners initials on it and directs the user to the home page.
 
 ![screenshot](documentation/feature01.jpg)
 
 - The welcome link
 
-    - This feature takes up the center and most important part of the page. It directs the user to the Gallery page which is the page of interest.
+    - This feature takes up the center and most important part of the page. It directs the user to the home page and it is an easy way to get to the start from anywhere inside the site.It is seen in all screen sizes.
 
 ![screenshot](documentation/feature02.jpg)
 
@@ -144,7 +141,7 @@ The confirmation page which is not really a part of the project but it is where 
 
 - The navigation bar with the dropdown menu
 
-    - This feature is essential to the user. It is used to navigate the user to the diffrent pages of the site directly from the home page.
+    - This feature is essential to the user. It is used to navigate the user to the different pages of the site from any part of the site that he/she are in.
 
 ![screenshot](documentation/feature04.jpg)
 
@@ -153,11 +150,12 @@ The confirmation page which is not really a part of the project but it is where 
 ![screenshot](documentation/feature042.jpg)
 
 
-- The video feature
+- The videos features
 
-    - This feature is used to keep the interest of the user on the about page.
+    - These features are used to keep the interest of the user on the about page. The user can see the process of making a cake which I think is veru interesting.
 
 ![screenshot](documentation/feature05.jpg)
+![screenshot](documentation/feature051.jpg)
 
 - The contact form
 
@@ -181,13 +179,13 @@ The confirmation page which is not really a part of the project but it is where 
 
 ### Future Features
 
-In the future and with the scenario that business goes well for the owner it would br helpful to add 
+In the future and with the scenario that business goes well for the owner it would br helpful to add:
 
 - Prices for the cakes
-- billing feautures
+- Billing feautures:
     - this will give the user the opportunity to pay for the cake online.
-- Make your own cake feature
-    - a feature that the user will be able to use his/hers imagination to constract a new cake and then get feedback from the owner. A menu of diffrent flavors will be provided.
+- Make your own cake feature:
+    - a feature that the user will be able to use his/hers imagination to construct a new cake and then get feedback from the owner. A menu of diffrent flavors can be provided.
 
 ## Tools & Technologies Used
 
