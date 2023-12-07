@@ -71,10 +71,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 The owner of the site tested it on her iPhone 8 and provided screenshots.
 
 | Page | iPhone | Notes |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | Home | ![screenshot](documentation/kg-home.jpg) | works as expected |
 | About | ![screenshot](documentation/kg-about.jpg) | works as expected |
-| Contact | ![screenshot](documentation/kg-contact.jpg) |
+| Contact | ![screenshot](documentation/kg-contact.jpg) | works as expected |
 | Birthday Cakes | ![screenshot](documentation/kg-birthday-cakes.jpg) | works as expected |
 | Speciallty Cakes | ![screenshot](documentation/kg-speciallty-cakes.jpg) | works as expected |
 | Sweet Treats | ![screenshot](documentation/kg-sweet-treats.jpg) | works as expected |

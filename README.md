@@ -152,7 +152,7 @@ The project consists of 7 different pages:
 
 - The videos features
 
-    - These features are used to keep the interest of the user on the about page. The user can see the process of making a cake which I think is veru interesting.
+    - These features are used to keep the interest of the user on the about page. The user can see the process of making a cake which I think is very interesting.
 
 ![screenshot](documentation/feature05.jpg)
 ![screenshot](documentation/feature051.jpg)
